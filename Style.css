@@ -1,0 +1,167 @@
+  body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f5f6f8;
+    color: #1f2430;
+    margin: 0;
+    padding: 0 0 24px 0;
+  }
+
+  h1.site-banner {
+    background: #001286;
+    color: #fff;
+    margin: 0 0 24px 0;
+    padding: 16px 24px;
+    font-size: 1.4em;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-align: center;
+  }
+
+  h1.site-banner a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  h2.doc-title {
+    font-size: 1.6em;
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: #001286;
+  }
+
+  .subtitle {
+    color: #555;
+    margin-top: 4px;
+    margin-bottom: 20px;
+  }
+
+  .intro {
+    background: #fff;
+    border: 1px solid #dde1e8;
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin-bottom: 28px;
+
+  }
+
+  .intro p {
+    margin: 0 0 10px 0;
+    line-height: 1.5;
+  }
+
+  .intro ul {
+    margin: 0 0 10px 0;
+    padding-left: 22px;
+  }
+
+  .part-title {
+    background: #001286;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 6px 6px 0 0;
+    font-size: 1.1em;
+    margin-top: 30px;
+  }
+
+  .section-title {
+    background: #e8ecf5;
+    color: #001286;
+    padding: 8px 16px;
+    font-weight: 600;
+    border-left: 4px solid #001286;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 4px;
+    background: #fff;
+    table-layout: fixed;
+  }
+
+  th,
+  td {
+    border: 1px solid #dde1e8;
+    padding: 10px 12px;
+    vertical-align: top;
+    font-size: 0.92em;
+    line-height: 1.4;
+  }
+
+  th {
+    background: #f0f2f7;
+    text-align: left;
+    color: #001286;
+  }
+
+  col.c1 {
+    width: 22%;
+  }
+
+  col.c2 {
+    width: 38%;
+  }
+
+  col.c3 {
+    width: 40%;
+  }
+
+  td ul,
+  th ul {
+    margin: 0;
+    padding-left: 18px;
+  }
+
+  .wrapper {
+    margin: 0 auto;
+    overflow-x: auto;
+    padding: 0 24px;
+  }
+
+  .card {
+    background: #fff;
+    border: 1px solid #dde1e8;
+    border-radius: 8px;
+    padding: 24px 28px;
+    text-align: center;
+  }
+
+  .card h2 {
+    margin-top: 0;
+    color: #001286;
+  }
+
+  .card p {
+    line-height: 1.6;
+  }
+
+  .card a {
+    color: #001286;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .ue-list {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 400px; 
+  }
+
+  .ue-list li {
+    border-bottom: 1px solid #eceef2;
+    padding: 10px 4px;
+  }
+
+  .ue-list li:last-child {
+    border-bottom: none;
+  }
+
+  .ue-list a {
+    text-decoration: none;
+  }
+
+  .ue-list a:hover {
+    text-decoration: underline;
+  }
