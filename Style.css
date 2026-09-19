@@ -165,3 +165,114 @@
   .ue-list a:hover {
     text-decoration: underline;
   }
+
+  .subsection-title {
+    color: #001286;
+    font-weight: 600;
+    font-size: 1.02em;
+    margin: 18px 0 6px 4px;
+    border-bottom: 1px solid #dde1e8;
+    padding-bottom: 4px;
+  }
+  .content-block {
+    background: #fff;
+    border: 1px solid #dde1e8;
+    border-radius: 0 0 8px 8px;
+    padding: 16px 20px;
+    margin-bottom: 4px;
+  }
+  .content-block p { line-height: 1.6; margin: 0 0 10px 0; }
+  .content-block ul { margin: 0 0 10px 0; padding-left: 22px; line-height: 1.6; }
+  .content-block li { margin-bottom: 4px; }
+
+  .activity-card {
+    background: #fff;
+    border: 1px solid #dde1e8;
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 12px 0 20px 0;
+  }
+  .activity-card h4 {
+    margin: 0 0 10px 0;
+    color: #001286;
+    font-size: 1em;
+  }
+  .meta-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 12px;
+  }
+  .meta-table td {
+    border: 1px solid #dde1e8;
+    padding: 6px 10px;
+    font-size: 0.9em;
+    vertical-align: top;
+  }
+  .meta-table td.label {
+    background: #f0f2f7;
+    font-weight: 600;
+    color: #001286;
+    width: 110px;
+  }
+  .activity-card ol { margin: 0; padding-left: 20px; line-height: 1.6; }
+  .activity-card ol li { margin-bottom: 8px; }
+  .activity-card p.note { font-style: italic; color: #555; margin-top: 10px; }
+
+  table.links {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px 0 20px 0;
+    background: #fff;
+  }
+  table.links th, table.links td {
+    border: 1px solid #dde1e8;
+    padding: 8px 10px;
+    font-size: 0.88em;
+    text-align: left;
+    vertical-align: top;
+  }
+  table.links th { background: #f0f2f7; color: #001286; }
+  table.links td a { word-break: break-all; }
+
+  .nav-menu {
+    background: #fff;
+    border: 1px solid #dde1e8;
+    border-radius: 8px;
+    padding: 20px 24px;
+    margin-top: 30px;
+  }
+  .nav-menu h3 {
+    margin-top: 0;
+    color: #001286;
+    font-size: 1.05em;
+    border-bottom: 1px solid #eceef2;
+    padding-bottom: 10px;
+  }
+  .nav-menu h4 {
+    color: #001286;
+    font-size: 0.95em;
+    margin: 16px 0 6px 0;
+  }
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 8px 0 0 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6px 20px;
+  }
+  .nav-links li {
+    border-bottom: 1px solid #f0f2f7;
+    padding: 5px 0;
+  }
+  .nav-links a {
+    text-decoration: none;
+    color: #001286;
+    font-size: 0.9em;
+  }
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  @media (max-width: 560px) {
+    .nav-links { grid-template-columns: 1fr; }
+  }
