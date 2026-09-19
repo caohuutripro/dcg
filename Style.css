@@ -29,6 +29,11 @@
     color: #001286;
   }
 
+   h2.doc-title a {
+    
+    text-decoration: none;
+  }
+
   .subtitle {
     color: #555;
     margin-top: 4px;
