@@ -1,0 +1,2174 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>UE 8 – Guide Pédagogique</title>
+  <link href="Style.css" rel="stylesheet" />
+
+</head>
+
+<body>
+  <h1 class="site-banner">
+    CAO Huu Tri | <a href="index.html">Préparation au DCG</a>
+  </h1>
+
+  <div class="wrapper">
+
+    <h2 class="doc-title"><a href="UE8.html">UE 8 – Système d'Information de Gestion </a> : Guide Pédagogique</h2>
+    <div class="subtitle">Guide à destination des enseignants — référentiel, ressources et propositions d'activités
+    </div>
+
+    <div class="nav-menu">
+
+      <h4>1. Le référentiel</h4>
+      <ul class="nav-links">
+        <li><a href="#s1-1">1.1 Objectifs généraux et positionnement de l'UE8</a></li>
+        <li><a href="#s1-2">1.2 Architecture générale du nouveau programme</a></li>
+        <li><a href="#s1-3">1.3 Principales évolutions du référentiel 2026 au regard du programme 2019</a></li>
+        <li><a href="#s1-4">1.4 Articulation avec le référentiel 2026 de l'UE5 du DSCG</a></li>
+      </ul>
+
+      <ul class="nav-links">
+        <li><a href="#p1">
+            <h4>Partie 1 – Comprendre le système d'information dans son environnement</h4>
+        </li>
+        <li><a href="#p1-1">1.1 Appréhender le rôle du système d'information dans les organisations</a></li>
+        <li><a href="#p1-2">1.2 Identifier les acteurs du système d'information</a></li>
+        <li><a href="#p1-3">1.3 Comprendre l'infrastructure technique du système d'information au service de
+            l'organisation</a></li>
+        <li><a href="#p1-4">1.4 Appréhender les solutions informatiques du système d'information</a></li>
+        <li><a href="#p1-5">1.5 Comprendre les choix organisationnels liés au système d'information</a></li>
+      </ul>
+
+      <ul class="nav-links">
+        <li><a href="#p2">
+            <h4>Partie 2 – Gérer des données du système d'information</h4>
+        </li>
+        <li><a href="#p2-1">2.1 Structurer et manipuler des données via les bases de données</a></li>
+        <li><a href="#p2-1-1">2.1.1 Structurer une base de données</a></li>
+        <li><a href="#p2-1-2">2.1.2 Manipuler des données d'une base de données</a></li>
+        <li><a href="#p2-2">2.2 Traiter des données via le tableur pour résoudre des problèmes de gestion et aider à la
+            décision</a></li>
+        <li><a href="#p2-2-1">2.2.1 Automatiser la résolution des problèmes de gestion</a></li>
+        <li><a href="#p2-2-2">2.2.2 Auditer une feuille de calcul</a></li>
+        <li><a href="#p2-2-3">2.2.3 Mettre en œuvre des programmes au sein du tableur</a></li>
+      </ul>
+
+      <ul class="nav-links">
+        <li><a href="#p3">
+            <h4>Partie 3 – Analyser le système d'information au regard de la performance des processus</h4>
+        </li>
+        <li><a href="#p3-1">3.1 Étudier les processus de l'organisation</a></li>
+        <li><a href="#p3-1-1">3.1.1 Comprendre et représenter les processus de l'organisation</a></li>
+        <li><a href="#p3-1-2">3.1.2 Identifier le lien entre processus et bases de données</a></li>
+        <li><a href="#p3-2">3.2 Comprendre la contribution des progiciels à la performance des processus</a></li>
+        <li><a href="#p3-3">3.3 Comprendre l'apport des technologies émergentes au service de la performance</a></li>
+      </ul>
+
+      <ul class="nav-links">
+        <li><a href="#p4">
+            <h4>Partie 4 – Appréhender les défis du système d'information en termes de règlementation, sécurité et
+              durabilité</h4>
+        </li>
+        <li><a href="#p4-1">4.1 Respecter la réglementation sur l'utilisation des données et des outils numériques</a>
+        </li>
+        <li><a href="#p4-1">4.1 Respecter la réglementation sur l'utilisation des données et des outils numériques</a>
+        </li>
+        <li><a href="#p4-2">4.2 Garantir la sécurisation du système d'information et des échanges de données</a></li>
+        <li><a href="#p4-3">4.3 Découvrir la durabilité</a></li>
+      </ul>
+
+      <h4>2. Les références pédagogiques pour l'enseignant</h4>
+      <ul class="nav-links">
+        <li><a href="#r-p1">
+            <h4>Partie 1 – Comprendre le système d'information dans son environnement</h4>
+        </li>
+        <li><a href="#r1-1">1.1 Appréhender le rôle du système d'information dans les organisations</a></li>
+        <li><a href="#r1-2">1.2 Identifier les acteurs du système d'information</a></li>
+        <li><a href="#r1-3">1.3 Comprendre l'infrastructure technique du système d'information au service de
+            l'organisation</a></li>
+        <li><a href="#r1-4">1.4 Appréhender les solutions informatiques du système d'information</a></li>
+        <li><a href="#r1-5">1.5 Comprendre les choix organisationnels liés au système d'information</a></li>
+      </ul>
+
+      <ul class="nav-links">
+        <li><a href="#r-p2">
+            <h4>Partie 2 – Gérer des données du système d'information</h4>
+        </li>
+        <li><a href="#r2-1">2.1 Structurer et manipuler des données via les bases de données</a></li>
+        <li><a href="#r2-1-1">2.1.1 Structurer une base de données</a></li>
+        <li><a href="#r2-1-2">2.1.2 Manipuler des données d'une base de données</a></li>
+        <li><a href="#r2-2">2.2 Traiter des données via le tableur pour résoudre des problèmes de gestion et aider à la
+            décision</a></li>
+        <li><a href="#r2-2-1">2.2.1 Automatiser la résolution des problèmes de gestion</a></li>
+        <li><a href="#r2-2-2">2.2.2 Auditer une feuille de calcul</a></li>
+        <li><a href="#r2-2-3">2.2.3 Mettre en œuvre des programmes au sein du tableur</a></li>
+      </ul>
+
+      <ul class="nav-links">
+        <li><a href="#r-p3">
+            <h4>Partie 3 – Analyser le système d'information au regard de la performance des processus</h4>
+        </li>
+        <li><a href="#r3-1">3.1 Étudier les processus de l'organisation</a></li>
+        <li><a href="#r3-1-1">3.1.1 Comprendre et représenter les processus de l'organisation</a></li>
+        <li><a href="#r3-1-2">3.1.2 Identifier le lien entre processus et bases de données</a></li>
+        <li><a href="#r3-2">3.2 Comprendre la contribution des progiciels à la performance des processus</a></li>
+        <li><a href="#r3-3">3.3 Comprendre l'apport des technologies émergentes au service de la performance</a></li>
+      </ul>
+
+      <ul class="nav-links">
+        <li><a href="#r-p4">
+            <h4>Partie 4 – Appréhender les défis du système d'information en termes de règlementation, sécurité et
+              durabilité</h4>
+        </li>
+        <li><a href="#r4-1">4.1 Respecter la réglementation sur l'utilisation des données et des outils numériques</a>
+        </li>
+        <li><a href="#r4-2">4.2 Garantir la sécurisation du système d'information et des échanges de données</a></li>
+        <li><a href="#r4-3">4.3 Découvrir la durabilité</a></li>
+      </ul>
+
+      <h4>3. Des propositions de démarche pédagogique en classe</h4>
+      <ul class="nav-links">
+        <li><a href="#d-p1">
+            <h4>Partie 1 – Comprendre le système d'information dans son environnement</h4>
+        </li>
+        <li><a href="#a1-1">1.1 Appréhender le rôle du système d'information dans les organisations</a></li>
+        <li><a href="#a1-2">1.2 Identifier les acteurs du système d'information</a></li>
+        <li><a href="#a1-3">1.3 Comprendre l'infrastructure technique du système d'information au service de
+            l'organisation</a></li>
+        <li><a href="#a1-4">1.4 Appréhender les solutions informatiques du système d'information</a></li>
+        <li><a href="#a1-5">1.5 Comprendre les choix organisationnels liés au système d'information</a></li>
+      </ul>
+
+      <ul class="nav-links">
+        <li><a href="#d-p2">
+            <h4>Partie 2 – Gérer des données du système d'information</h4>
+        </li>
+        <li><a href="#d2-1">2.1 Structurer et manipuler des données via les bases de données</a></li>
+        <li><a href="#a2-1-1">2.1.1 Structurer une base de données</a></li>
+        <li><a href="#a2-1-2">2.1.2 Manipuler des données d'une base de données</a></li>
+        <li><a href="#d2-2">2.2 Traiter des données via le tableur pour résoudre des problèmes de gestion et aider à la
+            décision</a></li>
+        <li><a href="#a2-2-1">2.2.1 Automatiser la résolution des problèmes de gestion</a></li>
+        <li><a href="#a2-2-2">2.2.2 Auditer une feuille de calcul</a></li>
+        <li><a href="#a2-2-3">2.2.3 Mettre en œuvre des programmes au sein du tableur</a></li>
+      </ul>
+
+      <ul class="nav-links">
+        <li><a href="#d-p3">
+            <h4>Partie 3 – Analyser le système d'information au regard de la performance des processus</h4>
+        </li>
+        <li><a href="#d3-1">3.1 Étudier les processus de l'organisation</a></li>
+        <li><a href="#a3-1-1">3.1.1 Comprendre et représenter les processus de l'organisation</a></li>
+        <li><a href="#a3-1-2">3.1.2 Identifier le lien entre processus et bases de données</a></li>
+        <li><a href="#a3-2">3.2 Comprendre la contribution des progiciels à la performance des processus</a></li>
+        <li><a href="#a3-3">3.3 Comprendre l'apport des technologies émergentes au service de la performance</a></li>
+      </ul>
+
+      <ul class="nav-links">
+        <li><a href="#d-p4">
+            <h4>Partie 4 – Appréhender les défis du système d'information en termes de règlementation, sécurité et
+              durabilité</h4>
+        </li>
+        <li><a href="#a4-1">4.1 Respecter la réglementation sur l'utilisation des données et des outils numériques</a>
+        </li>
+        <li><a href="#a4-2">4.2 Garantir la sécurisation du système d'information et des échanges de données</a></li>
+        <li><a href="#a4-3">4.3 Découvrir la durabilité</a></li>
+      </ul>
+
+      <h4>4. Propositions de démarches pédagogiques dans le cadre des modules méthodologiques</h4>
+      <ul class="nav-links">
+        <li><a href="#partie4">Transversalité inter-UE (UE6, UE7, UE9, UE11, UE13)</a></li>
+        <li><a href="#annexe">Annexe UE8 — Principaux éléments du langage VBA à connaître en UE8</a></li>
+        <li><a href="#annexe2">Instructions pour lesquelles une documentation serait fournie à l'examen</a></li>
+      </ul>
+
+
+    </div>
+
+
+
+    <!-- 1. LE REFERENTIEL -->
+    <div class="part-title" id="partie1">1. Le référentiel</div>
+
+    <div class="section-title" id="s1-1">1.1 Objectifs généraux et positionnement de l'UE8</div>
+    <div class="content-block">
+      <p>L'UE8, Systèmes d'information de gestion, a pour objectif de former des gestionnaires capables d'analyser, de
+        structurer et de sécuriser l'information pour en faire un levier de performance et de durabilité.</p>
+      <p>Ce référentiel vise à rénover le programme 2019 en apportant une réponse au Référentiel de compétences établi
+        par le CNOEC, intégrant :</p>
+      <ul>
+        <li>des enjeux contemporains pour la profession (intelligence artificielle, durabilité numérique, cybersécurité)
+        </li>
+        <li>une approche par compétences opérationnelles</li>
+        <li>une articulation renforcée avec les autres UE du DCG et du DSCG (UE5 Management des systèmes d'information)
+        </li>
+      </ul>
+    </div>
+
+    <div class="section-title" id="s1-2">1.2 Architecture générale du nouveau programme</div>
+    <table class="links">
+      <tr>
+        <th>Intitulé</th>
+        <th>Finalité globale</th>
+      </tr>
+      <tr>
+        <td>Partie 1 — Comprendre le système d'information dans son environnement</td>
+        <td>Identifier les ressources du SI et les choix organisationnels nécessaires à son évolution</td>
+      </tr>
+      <tr>
+        <td>Partie 2 — Gérer les données du système d'information</td>
+        <td>Structurer, manipuler et automatiser le traitement de la donnée via les bases de données et le tableur</td>
+      </tr>
+      <tr>
+        <td>Partie 3 — Analyser le SI au regard de la performance des processus</td>
+        <td>Relier SI, processus métiers et technologies émergentes</td>
+      </tr>
+      <tr>
+        <td>Partie 4 — Appréhender les défis du SI en termes de réglementation, sécurité et durabilité</td>
+        <td>Sensibiliser aux risques, à la conformité et à la sobriété numérique du SI</td>
+      </tr>
+    </table>
+
+    <div class="section-title" id="s1-3">1.3 Principales évolutions du référentiel 2026 au regard du programme 2019
+    </div>
+    <table class="links">
+      <tr>
+        <th>Axe</th>
+        <th>Programme 2019</th>
+        <th>Référentiel 2026</th>
+      </tr>
+      <tr>
+        <td>Structure du programme</td>
+        <td>3 blocs : description/analyse du SI ; structuration/traitement de l'information ; sécurité/fiabilité du SI
+        </td>
+        <td>4 parties : SI et environnement ; gestion des données ; SI et performance des processus ; réglementation,
+          sécurité et durabilité</td>
+      </tr>
+      <tr>
+        <td>Compétences attendues</td>
+        <td>Savoirs et compétences techniques</td>
+        <td>Compétences d'analyse, de diagnostic, de maîtrise, avec un accent sur la réflexion et la transversalité</td>
+      </tr>
+      <tr>
+        <td>Outils et technologies</td>
+        <td>Tableur, base de données, PGI</td>
+        <td>Ajout de l'IA, blockchain, IoT, durabilité numérique ; élargissement aux progiciels métiers (au-delà des
+          seuls PGI)</td>
+      </tr>
+      <tr>
+        <td>Bases de données</td>
+        <td>Modélisation et requêtes SQL-89</td>
+        <td>Passage au SQL-92 (SQL 2)</td>
+      </tr>
+      <tr>
+        <td>Processus</td>
+        <td>Modélisation principalement via le modèle événement-résultat</td>
+        <td>Modélisation via BPMN, pour une adéquation avec la réalité du terrain</td>
+      </tr>
+      <tr>
+        <td>Partie réglementaire</td>
+        <td>RGPD et sécurité des données</td>
+        <td>Ajout de l'IA Act, de la loi REEN, de la durabilité environnementale</td>
+      </tr>
+      <tr>
+        <td>Approche des SI</td>
+        <td>Faire des étudiants des utilisateurs éclairés des SI</td>
+        <td>Approche contextualisée et transversale, pour développer les compétences de conseil et de diagnostic</td>
+      </tr>
+    </table>
+
+    <div class="section-title" id="s1-4">1.4 Articulation avec le référentiel 2026 de l'UE5 du DSCG</div>
+    <div class="content-block">
+      <p>L'UE 5 du DSCG est structurée en 4 grands blocs thématiques : analyser le rôle stratégique du SI dans
+        l'organisation ; organiser, exploiter et sécuriser les données ; mettre en œuvre des outils SI au service de la
+        performance organisationnelle ; sécuriser et rendre durable le SI.</p>
+      <p>Le programme de l'UE8 du DCG constitue un socle de compréhension du système d'information dans les
+        organisations (composantes du SI, rôle des données, processus, sécurité, réglementation, durabilité). L'UE5 du
+        DSCG s'inscrit dans le prolongement de ces acquis avec une perspective plus stratégique et managériale (rôle du
+        SI dans la stratégie, valorisation des données, gouvernance).</p>
+      <p>Les deux référentiels s'articulent selon une logique de progression : l'UE8 du DCG permet de comprendre et
+        d'analyser le fonctionnement du SI, tandis que l'UE5 du DSCG vise à en piloter l'évolution et à en exploiter le
+        potentiel stratégique.</p>
+    </div>
+
+    <!-- PARTIE 1 -->
+    <div class="part-title" id="p1">Partie 1 – Comprendre le système d'information dans son environnement (30 heures)
+    </div>
+    <div class="content-block">
+      <p>Le système d'information (SI) occupe une place centrale dans le fonctionnement des organisations, en
+        structurant, traitant et diffusant l'information essentielle à la prise de décision et à l'exécution des
+        processus métier. Son étude repose sur l'acquisition d'un vocabulaire précis, la compréhension des concepts
+        fondamentaux et l'exploration des technologies qui le composent. L'analyse du système d'information s'effectue à
+        la fois du point de vue de l'utilisateur, qui l'exploite au quotidien, et de celui du conseil en systèmes
+        d'information, qui accompagne son optimisation et son adaptation aux évolutions des besoins métier.
+        L'identification des enjeux liés à sa mise en œuvre permet d'appréhender les défis posés par la transformation
+        numérique et d'anticiper les évolutions nécessaires à la performance des organisations.</p>
+    </div>
+
+    <div class="section-title" id="p1-1">1.1 Appréhender le rôle du système d'information dans les organisations (6
+      heures)</div>
+    <div class="content-block">
+      <p>Le SI d'une organisation permet, à partir de différentes ressources, de collecter, traiter, stocker, diffuser
+        et sécuriser une information de qualité nécessaire à ses acteurs. Dans ce contexte, il peut jouer un rôle
+        opérationnel, tactique et/ou stratégique.</p>
+      <p>Cette section vise à établir les fondements des éléments constitutifs essentiels des systèmes d'information.
+      </p>
+    </div>
+    <table>
+      <colgroup>
+        <col class="c1">
+        <col class="c2">
+        <col class="c3">
+      </colgroup>
+      <tr>
+        <th>Compétences professionnelles</th>
+        <th>Connaissances et savoirs associés</th>
+        <th>Limites des connaissances et précisions du champ d'étude</th>
+      </tr>
+      <tr>
+        <td>
+          <ul>
+            <li>Analyser la qualité d'une information.</li>
+            <li>Mettre en évidence les fonctions et les rôles du système d'information dans une organisation.</li>
+            <li>Identifier et classifier les ressources du système d'information et leurs usages.</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Donnée, information, connaissance</li>
+            <li>Critères de qualité de l'information : accessibilité, exactitude, actualité, pertinence, exhaustivité
+            </li>
+            <li>Système d'information</li>
+            <li>Fonctions du SI : collecter, traiter, stocker, diffuser et sécuriser</li>
+            <li>Rôles du SI : opérationnel, tactique et stratégique</li>
+            <li>Nature et rôle des ressources interreliées : matérielles, logicielles, données et procédures</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Savoir distinguer les notions de donnée, d'information et de connaissance, mais pas celles de
+              compétence.</li>
+            <li>La fonction du SI qui vise à le sécuriser est simplement introduite ici, pour être détaillée dans le
+              thème 4.</li>
+            <li>Les notions telles que l'alignement stratégique ou la gouvernance des SI, qui peuvent être utilisées
+              comme illustration du rôle stratégique, n'ont pas vocation à être détaillées ni maîtrisées.</li>
+            <li>Les niveaux du SI, les sous-systèmes, les procédures de contrôle de la qualité d'une information ne sont
+              pas à aborder.</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+    <div class="commentary">
+      <p>Dans le programme 2019, l'approche du SI était essentiellement technique et fonctionnelle. Ici, l'approche est
+        davantage systémique et stratégique, plus alignée avec les enjeux actuels.</p>
+      <p>Les rôles du SI à étudier sont enrichis :</p>
+      <ul>
+        <li>opérationnel : automatisation, rationalisation des tâches quotidiennes (gestion des stocks, facturation,
+          etc.) ;</li>
+        <li>tactique : aide à la coordination et au suivi des activités (reporting, tableaux de bord...) ;</li>
+        <li>stratégique : soutien à la prise de décision à long terme (analyse prédictive, veille stratégique),
+          introduction à l'alignement stratégique.</li>
+      </ul>
+      <p>L'accent est mis sur le fait que le système d'information fonctionne grâce à plusieurs types de ressources qui
+        doivent fonctionner ensemble pour produire une information utile.</p>
+      <p>Articulation avec les autres sous-parties :</p>
+      <ul>
+        <li>1.2 (Les acteurs du SI) : approfondit la dimension humaine introduite ici.</li>
+        <li>1.3 (Infrastructure technique) : développe les aspects matériels et logiciels du SI.</li>
+        <li>1.4 (Solutions informatiques) : illustre les fonctions traiter, diffuser et sécuriser.</li>
+        <li>1.5 (Choix organisationnels) : montre l'impact des décisions managériales sur l'évolution du SI.</li>
+      </ul>
+    </div>
+
+    <div class="section-title" id="p1-2">1.2 Identifier les acteurs du système d'information (4 heures)</div>
+    <div class="content-block">
+      <p>Il s'agit de mettre en évidence le rôle, les compétences et les responsabilités des différents acteurs du
+        système d'information. Ceux-ci interagissent, utilisent les informations produites par le SI et participent à
+        leur production. Ils exploitent à cette fin des outils numériques, ce qui requiert une mise à jour constante de
+        leurs compétences.</p>
+    </div>
+    <table>
+      <colgroup>
+        <col class="c1">
+        <col class="c2">
+        <col class="c3">
+      </colgroup>
+      <tr>
+        <th>Compétences professionnelles</th>
+        <th>Connaissances et savoirs associés</th>
+        <th>Limites des connaissances et précisions du champ d'étude</th>
+      </tr>
+      <tr>
+        <td>
+          <ul>
+            <li>Distinguer les rôles des différents acteurs, leurs compétences et responsabilités selon les
+              particularités de l'organisation.</li>
+            <li>Analyser les interactions des gestionnaires des SI avec l'ensemble des acteurs.</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Acteurs internes : utilisateurs, directeur/gestionnaires SI, chefs de projets, développeurs, responsable
+              infrastructures, Data Scientist, Data Analyst, RSSI</li>
+            <li>Acteurs externes : utilisateurs/partenaires, ESN, éditeurs</li>
+            <li>Interaction des gestionnaires SI avec les autres acteurs</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>L'ensemble des profils métiers du SI issus de la nomenclature du Cigref n'a pas à être abordé. Seuls les
+              emplois listés sont nécessairement connus.</li>
+            <li>Se limiter à l'identification des rôles, compétences générales et responsabilités des principaux
+              acteurs, sans entrer dans le détail des fiches de poste, des compétences techniques avancées.</li>
+            <li>Se limiter à une compréhension générale des interactions entre les gestionnaires des systèmes
+              d'information et les autres acteurs, sans analyse approfondie des processus organisationnels ou des
+              modèles de gouvernance de SI.</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+    <div class="commentary">
+      <ul>
+        <li>L'analyse des compétences et responsabilités des acteurs internes et externes est renforcée par une analyse
+          de leurs interactions.</li>
+        <li>Ainsi, un système d'information ne repose pas uniquement sur des logiciels ou du matériel informatique, mais
+          fonctionne aussi grâce à l'action coordonnée de nombreux acteurs humains. Sachant que ces acteurs :
+          <ul>
+            <li>utilisent les informations produites par le SI ;</li>
+            <li>participent à leur production ;</li>
+            <li>ne travaillent jamais isolément : ils coopèrent, échangent des informations, partagent des outils et
+              doivent se coordonner pour assurer la performance globale de l'organisation.</li>
+          </ul>
+        </li>
+        <li>Il s'agit donc :
+          <ul>
+            <li>de distinguer les rôles, compétences et responsabilités des différents acteurs du système d'information
+              ;</li>
+            <li>de comprendre les interactions entre ces acteurs, internes et externes ;</li>
+            <li>d'analyser la place des gestionnaires des systèmes d'information au sein d'une organisation ;</li>
+            <li>de situer les métiers du SI, sans entrer dans les aspects techniques de développement ou
+              d'administration complexes.</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <div class="section-title" id="p1-3">1.3 Comprendre l'infrastructure technique du système d'information au service
+      de l'organisation (6 heures)</div>
+    <div class="content-block">
+      <p>Les avancées technologiques ont grandement simplifié la communication, aussi bien entre les individus qu'entre
+        les organisations. Aujourd'hui majoritairement numérique, cette communication repose sur une interconnexion
+        croissante des systèmes d'information. Elle est rendue possible par la standardisation des protocoles à
+        l'échelle mondiale et nécessite une interopérabilité des systèmes et des données, tout en garantissant la
+        sécurité des échanges.</p>
+      <p>Dans cette section du programme, il s'agit de comprendre l'infrastructure technique du système d'information de
+        l'organisation dans laquelle évolue l'utilisateur afin de lui permettre un usage éclairé. Cette compréhension
+        constitue un prérequis essentiel pour appréhender le fonctionnement des solutions informatiques ainsi que les
+        enjeux liés à la sécurité du système d'information.</p>
+    </div>
+    <table>
+      <colgroup>
+        <col class="c1">
+        <col class="c2">
+        <col class="c3">
+      </colgroup>
+      <tr>
+        <th>Compétences professionnelles</th>
+        <th>Connaissances et savoirs associés</th>
+        <th>Limites des connaissances et précisions du champ d'étude</th>
+      </tr>
+      <tr>
+        <td>Analyser et utiliser l'infrastructure technique du SI : localiser les ressources ; comprendre les modalités
+          de communication fiable dans un réseau.</td>
+        <td>
+          <ul>
+            <li>Infrastructure technique</li>
+            <li>Composants matériels et réseaux</li>
+            <li>Systèmes d'exploitation</li>
+            <li>Rôle des protocoles</li>
+            <li>Virtualisation</li>
+            <li>Réseaux publics et privés : internet/intranet/extranet</li>
+            <li>Architecture client/serveur</li>
+            <li>Modalités d'accès au réseau</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>L'étude des ressources matérielles étudiées portera sur les moyens d'accès aux SI (postes de travail
+              fixes ou mobiles, tablettes, smartphones, terminaux, etc.), périphériques, serveurs et matériels
+              d'interconnexion réseau.</li>
+            <li>Se limiter à la compréhension du rôle des serveurs (annuaire, messagerie, Web, antivirus, DHCP, DNS)
+              ainsi qu'à des exemples d'usage, sans étude du fonctionnement technique détaillé de ces serveurs.</li>
+            <li>Se limiter à la compréhension du rôle des protocoles (HTTP, HTTPS, TCP/IP) ainsi qu'à des exemples
+              d'usage, sans étude du fonctionnement technique détaillé de ces protocoles.</li>
+            <li>Se limiter à la compréhension générale du concept de client/serveur et les rôles respectifs des
+              composants, illustré par des exemples simples.</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+    <div class="commentary">
+      <ul>
+        <li>Ce référentiel renforce nettement la compréhension structurelle et organisationnelle du système
+          d'information, au-delà d'une utilisation raisonnée et sécurisée de l'espace numérique de travail.</li>
+        <li>L'infrastructure technique (« socle » ou « strate technique ») comprend les composants matériels et réseaux
+          ainsi que les logiciels de base, protocoles et langages techniques qui sont utilisés pour fournir des services
+          et solutions informatiques.</li>
+        <li>La connaissance du fonctionnement des protocoles n'est pas attendue.</li>
+      </ul>
+    </div>
+
+    <div class="section-title" id="p1-4">1.4 Appréhender les solutions informatiques du système d'information (6 heures)
+    </div>
+    <div class="content-block">
+      <p>L'environnement numérique des organisations évolue régulièrement avec l'intégration de nouveaux outils et une
+        accessibilité accrue au-delà des frontières de l'organisation.</p>
+      <p>C'est pourquoi l'utilisateur doit maîtriser son espace numérique de travail afin d'en exploiter pleinement les
+        potentialités. L'appropriation de ces technologies par les différents acteurs et la gestion efficace de leurs
+        interactions participent à la performance du système d'information, et par extension, à celle de l'organisation.
+      </p>
+    </div>
+    <table>
+      <colgroup>
+        <col class="c1">
+        <col class="c2">
+        <col class="c3">
+      </colgroup>
+      <tr>
+        <th>Compétences professionnelles</th>
+        <th>Connaissances et savoirs associés</th>
+        <th>Limites des connaissances et précisions du champ d'étude</th>
+      </tr>
+      <tr>
+        <td>
+          <ul>
+            <li>Catégoriser des applications et services numériques dans un contexte professionnel.</li>
+            <li>Localiser les ressources applicatives.</li>
+            <li>Analyser les différents formats d'échange de documents et apprécier leur interopérabilité.</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Solutions informatiques utilisées en l'état ou développées</li>
+            <li>Introduction à la gestion de projet numérique : cahier des charges, maîtrise d'œuvre, maîtrise d'ouvrage
+            </li>
+            <li>Localisation des données et des applications, interopérabilité</li>
+            <li>Formats d'échange, langage à balises</li>
+            <li>Documents électroniques légaux (factures, bulletins de salaire…)</li>
+            <li>Procédures d'échanges dématérialisées</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Se limiter à la compréhension de l'usage courant de l'espace numérique de travail, sans attendre de
+              compétences techniques avancées ou de paramétrage approfondi des outils.</li>
+            <li>La localisation des données et des applications inclut l'informatique en nuage.</li>
+            <li>Il s'agit de réaliser une introduction à la gestion de projet pour acquérir le vocabulaire nécessaire au
+              DSCG. Cette introduction sera limitée à la connaissance du vocabulaire de base (cahier des charges,
+              maîtrise d'ouvrage, maîtrise d'œuvre), sans développement sur les méthodes de gestion de projet (cycle en
+              V, Agile, etc.).</li>
+            <li>Se limiter à l'étude du XML concernant le langage à balises d'échange de données.</li>
+            <li>Se limiter à l'étude d'exemples courants et simples de procédure d'échange dématérialisée (exemple :
+              facture électronique, DSN), sans couvrir l'ensemble des processus métiers.</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+    <div class="commentary">
+      <ul>
+        <li>Une solution informatique est un ensemble organisé de fonctionnalités logicielles (programmes, codes,
+          paramétrages…) apte à satisfaire les besoins des utilisateurs en vue notamment de stocker, manipuler,
+          transformer, produire, sécuriser des données, d'y accéder ou encore de les transmettre.</li>
+        <li>L'étude du processus global de la facturation électronique, notamment l'architecture et le rôle des
+          différents tiers, doit être réalisée.</li>
+      </ul>
+    </div>
+
+    <div class="section-title" id="p1-5">1.5 Comprendre les choix organisationnels liés au système d'information,
+      nécessaires pour s'adapter à son environnement (8 heures)</div>
+    <div class="content-block">
+      <p>La transition numérique transforme en profondeur le fonctionnement des organisations, en mobilisant des
+        ressources interreliées, qu'elles soient humaines, technologiques, économiques ou juridiques. Son étude permet
+        d'analyser les impacts de cette évolution sur la gestion de l'information et l'adaptation des structures aux
+        nouveaux enjeux numériques.</p>
+      <p>L'évolution du système d'information repose sur des choix stratégiques, alliant solutions internes et recours à
+        des prestataires externes, afin d'optimiser son efficacité et sa conformité aux exigences du marché.</p>
+      <p>Comprendre ces dynamiques permet d'anticiper les défis liés à l'innovation technologique et aux transformations
+        des modèles d'organisation.</p>
+    </div>
+    <table>
+      <colgroup>
+        <col class="c1">
+        <col class="c2">
+        <col class="c3">
+      </colgroup>
+      <tr>
+        <th>Compétences professionnelles</th>
+        <th>Connaissances et savoirs associés</th>
+        <th>Limites des connaissances et précisions du champ d'étude</th>
+      </tr>
+      <tr>
+        <td>
+          <ul>
+            <li>Collaborer à un diagnostic du système d'information.</li>
+            <li>Identifier les besoins d'évolution du système d'information.</li>
+            <li>Justifier les enjeux de la transition numérique d'une organisation.</li>
+            <li>Analyser les clauses spécifiques d'un contrat de prestations de services informatiques.</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Audit du système d'information</li>
+            <li>Internalisation et externalisation du SI</li>
+            <li>La transition numérique des organisations</li>
+            <li>Urbanisation du système d'information</li>
+            <li>Contrats de prestations de services</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Se limiter à la compréhension des objectifs et des grandes étapes d'un diagnostic ou d'un audit du
+              système d'information, sans approfondir les méthodologies d'audit détaillées ni les outils techniques
+              utilisés par les auditeurs spécialisés.</li>
+            <li>Se limiter à l'identification des principaux enjeux, opportunités et risques liés à la transition
+              numérique, sans approfondir les démarches de conduite du changement ni les référentiels ou méthodologies
+              spécifiques (type ITIL, CMMI, etc.) étudiés en DSCG.</li>
+            <li>Se limiter à une compréhension générale de la notion d'urbanisation du système d'information, sans
+              décrire les démarches d'urbanisation qui seront étudiées en DSCG. Il s'agit d'inscrire le processus de
+              transition numérique dans une démarche rationnelle, celle de l'urbanisation.</li>
+            <li>Se limiter à l'analyse des clauses spécifiques courantes dans un contrat de prestations de services
+              informatiques.</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+    <div class="commentary">
+      <ul>
+        <li>Dans ce référentiel, l'étude ne se limite plus à la dimension organisationnelle. Il s'agit également
+          d'analyser les choix structurants liés au SI.</li>
+        <li>Le SI est vu comme un levier d'adaptation stratégique et plus seulement comme un ensemble de moyens
+          organisationnels.</li>
+      </ul>
+    </div>
+
+    <!-- PARTIE 2 -->
+    <div class="part-title" id="p2">Partie 2 – Gérer des données du système d'information (110 heures)</div>
+    <div class="content-block">
+      <p>La gestion des données constitue une dimension essentielle du système d'information. Elle repose sur
+        l'utilisation des bases de données et du tableur permettant de structurer, stocker et exploiter l'information de
+        manière efficiente. La maîtrise de ces outils est indispensable pour garantir la fiabilité et la pertinence des
+        données utilisées dans la prise de décision et le pilotage des activités. L'organisation et l'exploitation des
+        données doivent ainsi répondre aux besoins des utilisateurs tout en s'inscrivant dans une démarche
+        d'optimisation et de sécurisation de l'information. L'écriture de requêtes et l'analyse des données, notamment,
+        offrent de nombreuses perspectives pour améliorer la gestion de l'information, la prise de décision et pour
+        renforcer la capacité d'adaptation des organisations.</p>
+    </div>
+
+    <div class="section-title" id="p2-1">2.1 Structurer et manipuler des données via les bases de données (45 heures)
+    </div>
+    <div class="content-block">
+      <p>La structuration et la manipulation des données sont au cœur du fonctionnement des systèmes d'information,
+        permettant d'assurer leur organisation, leur accessibilité et leur exploitation efficace. Les bases de données
+        jouent un rôle central en offrant des solutions adaptées au stockage, à la gestion et au traitement des
+        informations. Comprendre leurs principes de modélisation et les mécanismes de réalisation de requêtes est
+        essentiel pour garantir la qualité et la cohérence des données utilisées dans la prise de décision.</p>
+    </div>
+
+    <div class="subsection-title" id="p2-1-1">2.1.1 Structurer une base de données</div>
+    <div class="content-block">
+      <p>Une base de données relationnelle est un ensemble structuré de données accessibles via un système de gestion de
+        base de données relationnelle (SGBDR). Elle est créée pour répondre aux besoins spécifiques d'une organisation
+        et pour être partagée entre plusieurs applications, utilisateurs ou groupes d'utilisateurs. C'est une composante
+        essentielle du système d'information de l'organisation.</p>
+      <p>La structure de la base de données est représentée sous la forme d'un schéma relationnel qui permet de mettre
+        en évidence les relations entre les données.</p>
+      <p>Le champ de l'étude consiste à interpréter, à vérifier et à enrichir le schéma relationnel décrivant une base
+        de données normalisée.</p>
+    </div>
+    <table>
+      <colgroup>
+        <col class="c1">
+        <col class="c2">
+        <col class="c3">
+      </colgroup>
+      <tr>
+        <th>Compétences professionnelles</th>
+        <th>Connaissances et savoirs associés</th>
+        <th>Limites des connaissances et précisions du champ d'étude</th>
+      </tr>
+      <tr>
+        <td>
+          <ul>
+            <li>Interpréter un schéma relationnel.</li>
+            <li>Vérifier les règles du modèle relationnel.</li>
+            <li>Adapter un schéma relationnel au changement d'une règle de gestion.</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Modèle relationnel, relation</li>
+            <li>Clé primaire / clé étrangère</li>
+            <li>Dépendances fonctionnelles</li>
+            <li>Normalisation des relations et du schéma relationnel</li>
+            <li>Collecte et sélection des données</li>
+          </ul>
+        </td>
+        <td>La normalisation étudiée se limitera à la 3<sup>e</sup> forme normale, il n'est pas attendu de savoir
+          distinguer 1<sup>re</sup>, 2<sup>e</sup> et 3<sup>e</sup> forme normale, mais d'être capable de dire si un
+          schéma relationnel est normalisé ou non et de le justifier.</td>
+      </tr>
+    </table>
+    <div class="commentary">
+      <p>Le modèle relationnel a pour objectif de définir une organisation des données qui permet :</p>
+      <ul>
+        <li>une forte indépendance entre les applications et les données ;</li>
+        <li>le maintien de la cohérence et de la non redondance des données ;</li>
+        <li>l'accès aux données dans des tables à l'aide d'un langage de manipulation de données normalisé.</li>
+      </ul>
+      <p>Cette partie du référentiel révèle peu de changements au regard de l'ancien programme.</p>
+      <p>Il est cependant à noter que le candidat devra être capable de comprendre et d'adapter une variété de schémas
+        relationnels sans avoir à connaître les noms de concepts associés tels que l'agrégat et la relation réflexive.
+        L'étude de la représentation relationnelle de la généralisation/spécialisation et de la notion d'identifiant
+        relatif n'est plus attendue.</p>
+    </div>
+
+    <div class="subsection-title" id="p2-1-2">2.1.2 Manipuler des données d'une base de données</div>
+    <div class="content-block">
+      <p>Le système d'information doit fournir aux acteurs de l'organisation les moyens d'obtenir les informations dont
+        ils ont besoin en s'assurant de leur actualité, de leur pertinence et de leur intégrité.</p>
+      <p>L'interrogation et la mise à jour de la base de données sont réalisées à l'aide du langage de requête SQL-92.
+      </p>
+    </div>
+    <table>
+      <colgroup>
+        <col class="c1">
+        <col class="c2">
+        <col class="c3">
+      </colgroup>
+      <tr>
+        <th>Compétences professionnelles</th>
+        <th>Connaissances et savoirs associés</th>
+        <th>Limites des connaissances et précisions du champ d'étude</th>
+      </tr>
+      <tr>
+        <td>
+          <ul>
+            <li>Écrire des requêtes d'extraction et de mise à jour de données.</li>
+            <li>Identifier les requêtes à réaliser en réponse à un besoin d'information.</li>
+            <li>Comprendre la contrainte d'intégrité référentielle.</li>
+            <li>Extraire des informations d'une base de données.</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>SGBDR : tables et requêtes SQL</li>
+            <li>Requêtes d'interrogation : projection, sélection, jointure, tri, regroupements, restriction sur les
+              groupes, sous-requêtes, fonctions</li>
+            <li>Requêtes de mise à jour</li>
+            <li>Contrainte d'intégrité référentielle</li>
+            <li>Exportation de données</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Les instructions SQL à utiliser devront respecter le SQL-92. Donc l'interrogation des données est
+              réalisée notamment à partir des instructions SELECT, FROM, WHERE, INNER JOIN (JOIN), LEFT JOIN, GROUP BY,
+              HAVING, ORDER BY. Les autres types de JOIN n'ont pas à être connus.</li>
+            <li>Les requêtes de mise à jour portent sur des données des tables et non sur la structure de la base de
+              données.</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+    <div class="commentary">
+      <ul>
+        <li>Les instructions à utiliser respectent maintenant le SQL-92 avec notamment l'utilisation de INNER JOIN (ou
+          JOIN) et LEFT JOIN (pour réaliser les jointures) indispensables pour répondre aux questions de l'examen. Le
+          RIGHT JOIN pourra être traité en classe afin comprendre la différence avec le LEFT JOIN, mais sans
+          questionnement lors de l'épreuve d'examen.</li>
+        <li>Il sera cependant parfois nécessaire de conserver des sous-requêtes, mais uniquement dans de rares cas tels
+          que « Trouver l'article le plus cher de tous les articles du catalogue ». Dans tous les autres cas, INNER JOIN
+          et/ou LEFT JOIN seront systématiquement utilisés.</li>
+        <li>En effet, il s'agit de séparer clairement deux concepts différents :
+          <ul>
+            <li>la jointure (la façon dont les tables sont reliées) ;</li>
+            <li>la sélection (les lignes que l'on souhaite conserver).</li>
+          </ul>
+        </li>
+        <li>L'utilisation de EXISTS, NOT EXISTS, ANY et ALL n'est pas attendue.</li>
+        <li>NOT IN exprimant l'absence de correspondance entre deux relations sera remplacé par une anti-jointure LEFT
+          JOIN ... IS NULL.</li>
+        <li>Les requêtes exprimées en langage SQL utilisent des opérateurs pour extraire des informations d'une base de
+          données. Les requêtes d'extraction des données se limitent aux opérateurs de projection, sélection, jointure,
+          tri et regroupement ainsi que les fonctions d'agrégats. Les requêtes de modification des données de la base se
+          limitent aux opérateurs d'insertion, de mise à jour et de suppression des occurrences.</li>
+      </ul>
+    </div>
+
+    <div class="section-title" id="p2-2">2.2 Traiter des données via le tableur pour résoudre des problèmes de gestion
+      et aider à la décision (65 heures)</div>
+    <div class="content-block">
+      <p>L'exploitation des données à des fins de gestion et d'aide à la décision repose sur l'utilisation d'outils
+        performants permettant de structurer, traiter et interpréter l'information. Le tableur constitue un levier
+        essentiel pour automatiser la résolution des problèmes de gestion grâce à des fonctions avancées, des modèles de
+        calcul et des outils d'analyse facilitant le pilotage des activités. Son utilisation ne se limite pas à
+        l'exécution de traitements, mais implique également une démarche de contrôle et d'audit des feuilles de calcul
+        afin d'en garantir la fiabilité, la cohérence et la conformité aux exigences métier. La maîtrise de ces
+        pratiques permet d'améliorer la pertinence des analyses et de renforcer la qualité des décisions prises dans un
+        environnement de plus en plus fondé sur l'exploitation des données.</p>
+    </div>
+
+    <div class="subsection-title" id="p2-2-1">2.2.1 Automatiser la résolution des problèmes de gestion</div>
+    <div class="content-block">
+      <p>Le tableur est un outil de productivité qui facilite la résolution de problèmes de gestion. Sa connaissance par
+        les professionnels de la gestion est indispensable puisqu'il permet d'automatiser des calculs répétitifs et de
+        construire des indicateurs financiers ou de gestion.</p>
+    </div>
+    <table>
+      <colgroup>
+        <col class="c1">
+        <col class="c2">
+        <col class="c3">
+      </colgroup>
+      <tr>
+        <th>Compétences professionnelles</th>
+        <th>Connaissances et savoirs associés</th>
+        <th>Limites des connaissances et précisions du champ d'étude</th>
+      </tr>
+      <tr>
+        <td>
+          <ul>
+            <li>Automatiser des calculs en écrivant des formules.</li>
+            <li>Identifier les besoins d'automatisation.</li>
+            <li>Exploiter une documentation pour mettre en œuvre une fonction.</li>
+            <li>Concevoir/modifier la structure d'un modèle de feuille de calcul.</li>
+            <li>Mettre en place l'ergonomie d'une feuille de calcul.</li>
+            <li>Assurer la maintenabilité d'une feuille de calcul.</li>
+            <li>Produire des tableaux et graphiques de synthèse.</li>
+            <li>Contrôler l'adéquation entre le contexte et le modèle créé.</li>
+            <li>Importer des informations issues d'une base de données.</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Découverte du tableur : classeur, feuille, cellule, types de données</li>
+            <li>Formules (fonctions logiques, calculs sur nombres/dates, recherche d'informations, manipulation de
+              texte)</li>
+            <li>Ergonomie (formatage, affichage, validation des données, mise en forme conditionnelle, gestion des
+              erreurs)</li>
+            <li>Plages dynamiques, cellules de paramètres, nommage</li>
+            <li>Tableaux et graphiques de synthèse, tris croisés, agrégation, importation de données</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Les compétences professionnelles liées à l'écriture de formules passent par la maîtrise de l'utilisation
+              des fonctions avancées du tableur pour répondre à un problème de gestion dans des conditions optimales
+              d'ergonomie et de sécurité.</li>
+            <li>Le candidat doit pouvoir assurer la maintenabilité d'une feuille de calcul notamment en recourant à des
+              plages dynamiques et en facilitant la modification de valeurs de paramètres.</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+    <div class="commentary">
+      <ul>
+        <li>Cette partie du référentiel s'inscrit dans la continuité du programme de 2019 mais davantage centré sur
+          l'usage professionnel durable du tableur avec, par exemple, un accent mis sur la maintenabilité des feuilles
+          de calcul.</li>
+        <li>La pratique du tableur comme outil de support à la gestion est requise pour concevoir des modèles qui
+          permettent de traiter de manière efficace et ergonomique un grand nombre de données.</li>
+        <li>Fonction à connaître a minima : SOMME, MOYENNE, SI, NB, NBVAL, NB.VIDE, ARRONDI, ARRONDI.INF, ARRONDI.SUP,
+          MAX, MIN, AUJOURDHUI, RANG, NB.SI(.ENS), SOMME.SI(.ENS), MOYENNE.SI(.ENS), RECHERCHEV/H, INDEX, EQUIV,
+          SOMMEPROD, DECALER (avec 0 comme valeur du 2<sup>e</sup> et du 3<sup>e</sup> argument, pour assurer la
+          maintenabilité).</li>
+        <li>Dans les sujets d'examen, certaines questions pourraient porter sur d'autres fonctions et prendre la forme
+          suivante : « Écrire la formule à partir des éléments fournis dans le document X » afin de ne pas rendre la
+          liste précédente exhaustive. Ainsi, si d'autres fonctions que celles listées dans le point précédent sont
+          nécessaires, une documentation sera fournie dans le dossier documentaire du sujet d'examen.</li>
+      </ul>
+    </div>
+
+    <div class="subsection-title" id="p2-2-2">2.2.2 Auditer une feuille de calcul</div>
+    <div class="content-block">
+      <p>La conception d'un modèle de feuille de calcul nécessite de contrôler les formules, de vérifier les résultats
+        et d'évaluer leur pertinence afin de produire une information fiable répondant aux besoins de l'utilisateur. Il
+        est nécessaire de sécuriser les éléments d'un classeur afin de garantir la confidentialité et l'intégrité des
+        données qu'il contient.</p>
+    </div>
+    <table>
+      <colgroup>
+        <col class="c1">
+        <col class="c2">
+        <col class="c3">
+      </colgroup>
+      <tr>
+        <th>Compétences professionnelles</th>
+        <th>Connaissances et savoirs associés</th>
+        <th>Limites des connaissances et précisions du champ d'étude</th>
+      </tr>
+      <tr>
+        <td>
+          <ul>
+            <li>Exploiter les outils de contrôle des formules.</li>
+            <li>Concevoir un jeu d'essai pour contrôler la vraisemblance des résultats.</li>
+            <li>Sécuriser le classeur/la feuille de calcul.</li>
+            <li>Concevoir des formules de contrôle de cohérence.</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Outils d'audit du tableur</li>
+            <li>Jeu d'essai</li>
+            <li>Contrôle de la confidentialité et de l'intégrité des données</li>
+            <li>Éléments de sécurité (protection de la feuille de calcul)</li>
+          </ul>
+        </td>
+        <td>Limiter à la conception manuelle de jeux d'essai simples pour vérifier la cohérence des résultats produits,
+          sans aborder des méthodes formelles de test logiciel ni des approches d'automatisation des tests.</td>
+      </tr>
+    </table>
+    <div class="commentary">
+      <ul>
+        <li>Cette partie est conforme au programme de 2019.</li>
+        <li>Un audit d'une feuille de calcul doit permettre de répondre à un certain nombre de questions, par exemple :
+          <ul>
+            <li>Le modèle créé est-il pertinent pour répondre au problème de gestion posé ?</li>
+            <li>Quelles sont les données qui permettent d'obtenir un résultat ?</li>
+            <li>Le jeu d'essai est-il pertinent ?</li>
+            <li>Quelle est la plage des valeurs possibles ?</li>
+            <li>Que se passe-t-il en l'absence de valeur ?</li>
+            <li>Le modèle prévient-il les erreurs de saisie ou de manipulation de l'utilisateur ?</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <div class="subsection-title" id="p2-2-3">2.2.3 Mettre en œuvre des programmes au sein du tableur</div>
+    <div class="content-block">
+      <p>Un programme est une suite finie et non ambiguë d'instructions à exécuter afin d'obtenir un résultat à partir
+        de données fournies.</p>
+      <p>La pratique de la programmation permet d'acquérir la méthode et la rigueur exigées pour résoudre un problème de
+        gestion. Elle prend la forme d'écriture de fonctions ou de procédures utilisables à partir d'une feuille de
+        calcul en utilisant le langage de programmation Visual Basic pour Application (VBA).</p>
+    </div>
+    <table>
+      <colgroup>
+        <col class="c1">
+        <col class="c2">
+        <col class="c3">
+      </colgroup>
+      <tr>
+        <th>Compétences professionnelles</th>
+        <th>Connaissances et savoirs associés</th>
+        <th>Limites des connaissances et précisions du champ d'étude</th>
+      </tr>
+      <tr>
+        <td>
+          <ul>
+            <li>Enregistrer une macro-commande.</li>
+            <li>Interpréter un programme répondant à un problème de gestion.</li>
+            <li>Exécuter, modifier ou compléter le code d'une macro-commande.</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Programmation au sein d'un tableur</li>
+            <li>Macro-commande (fonction, procédure)</li>
+            <li>Modèle d'objets associé à un tableur</li>
+            <li>Familles d'instructions : affectation, entrée/calcul/cumul/sortie, tests, boucles</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Se limiter à la mise en œuvre des concepts de base de la programmation en langage VBA appliquée au
+              tableur, en exploitant uniquement les objets fondamentaux (classeur, feuille, colonne, ligne, plage,
+              etc.), sans aborder la création ou l'utilisation de classes personnalisées.</li>
+            <li>Se limiter à la conception et à la mise au point de programmes simples visant à automatiser des tâches
+              ou à résoudre des problèmes de gestion courants, sans entrer dans le développement d'applications
+              complexes ni l'optimisation avancée du code VBA.</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+    <div class="commentary">
+      <ul>
+        <li>Les instructions conditionnelles et boucles doivent être au cœur de l'apprentissage de la programmation.
+        </li>
+        <li>Les principales instructions à connaître se trouvent en annexe.</li>
+        <li>Concernant les autres instructions, dans les sujets d'examen, certaines questions pourraient prendre la
+          forme suivante : « Rédiger la macro commande à partir des éléments fournis dans le document X » (voir annexe)
+          ou être suffisamment guidées pour que les candidats puissent répondre.</li>
+      </ul>
+    </div>
+
+    <!-- PARTIE 3 -->
+    <div class="part-title" id="p3">Partie 3 – Analyser le système d'information au regard de la performance des
+      processus (30 heures)</div>
+    <div class="content-block">
+      <p>Le système d'information doit faire appel à différentes ressources. L'une de ces ressources est la mise en
+        œuvre de processus permettant de gérer de façon optimale les différentes activités de l'entreprise pour
+        atteindre ses objectifs stratégiques. Il est donc nécessaire de les étudier pour les comprendre, appréhender les
+        interactions entre ces processus et la base de données pour définir les droits d'accès et connaître les types de
+        progiciels permettant de rendre ces processus plus performants. De nombreuses technologies émergentes
+        contribuent aujourd'hui à la performance de ces processus. Les connaître permet d'en comprendre les apports et
+        d'en évaluer les enjeux.</p>
+    </div>
+
+    <div class="section-title" id="p3-1">3.1 Étudier les processus de l'organisation (15 heures)</div>
+    <div class="content-block">
+      <p>Les processus permettent de structurer les activités de l'entreprise de façon à les rendre conformes aux
+        attentes de la direction (plus efficaces, moins coûteuses et de meilleure qualité). Si ces processus reposent
+        souvent sur des logiques communes à l'ensemble des organisations (gestion des commandes, gestion de la paie,
+        etc.), leur mise en œuvre concrète varie selon les choix organisationnels et le système d'information de
+        l'entreprise.</p>
+      <p>Cette adaptation par chaque organisation contribue à différencier les pratiques de gestion et peut constituer
+        un levier d'avantage concurrentiel.</p>
+      <p>Il est important pour chacune d'entre elles de pouvoir schématiser les processus pour les comprendre, les
+        analyser, les communiquer à l'ensemble des acteurs du système d'information et définir les droits sur les tables
+        de la base de données nécessaires à la réalisation de ces processus.</p>
+    </div>
+
+    <div class="subsection-title" id="p3-1-1">3.1.1 Comprendre et représenter les processus de l'organisation</div>
+    <div class="content-block">
+      <p>L'organisation peut se caractériser par un ensemble de processus métiers soutenus par des processus support,
+        guidés par des processus de pilotage et ayant pour objectif de créer de la valeur.</p>
+      <p>Le système d'information contribue à la qualité des processus par ses ressources et participe à la coordination
+        entre les acteurs.</p>
+      <p>L'étude des processus peut conduire à leur reconfiguration lorsque leur contribution à la création de valeur
+        pour l'organisation est remise en cause.</p>
+    </div>
+    <table>
+      <colgroup>
+        <col class="c1">
+        <col class="c2">
+        <col class="c3">
+      </colgroup>
+      <tr>
+        <th>Compétences professionnelles</th>
+        <th>Connaissances et savoirs associés</th>
+        <th>Limites des connaissances et précisions du champ d'étude</th>
+      </tr>
+      <tr>
+        <td>
+          <ul>
+            <li>Identifier les processus clés et leurs caractéristiques.</li>
+            <li>Classer les processus selon leur typologie.</li>
+            <li>Identifier activités, flux d'orchestration et évènements.</li>
+            <li>Comprendre et représenter un processus sous forme de diagramme BPMN.</li>
+            <li>Améliorer/enrichir un processus selon de nouvelles règles de gestion.</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Notion de processus</li>
+            <li>Typologie : métiers, de support, de pilotage</li>
+            <li>Représentation BPMN (diagramme de collaboration)</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Respecter la typologie AFNOR des processus : Processus métiers / de réalisation / opérationnels ;
+              Processus de support / de soutien ; Processus de pilotage / de management.</li>
+            <li>Respecter la norme BPMN 2.0. Se limiter à l'étude des concepts de base d'un diagramme de collaboration :
+              processus, sous-processus, activités, flux, évènements, passerelles, piscines, couloirs, artefacts
+              (commentaire et regroupement).</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+    <div class="commentary">
+      <ul>
+        <li>Un formulaire avec les principaux symboles BPMN nécessaires au cas sera dans les sujets d'examen.</li>
+        <li>Il s'agit d'utiliser les couloirs en ligne dans la représentation du diagramme de collaboration.</li>
+      </ul>
+    </div>
+
+    <div class="subsection-title" id="p3-1-2">3.1.2 Identifier le lien entre processus et bases de données</div>
+    <div class="content-block">
+      <p>Les activités des organisations se déroulent selon des processus plus ou moins automatisés. Les données
+        utilisées et produites au cours de ces processus sont stockées dans une base de données accessible aux
+        utilisateurs au travers d'applications et de progiciels. La gestion des droits d'accès à ces données est
+        primordiale pour assurer le respect de la confidentialité mais aussi pour permettre à chacun l'accès aux données
+        dont il a besoin pour réaliser ses missions.</p>
+    </div>
+    <table>
+      <colgroup>
+        <col class="c1">
+        <col class="c2">
+        <col class="c3">
+      </colgroup>
+      <tr>
+        <th>Compétences professionnelles</th>
+        <th>Connaissances et savoirs associés</th>
+        <th>Limites des connaissances et précisions du champ d'étude</th>
+      </tr>
+      <tr>
+        <td>
+          <ul>
+            <li>Identifier les recours à la base de données dans le déroulement des processus.</li>
+            <li>Identifier les droits attribués aux utilisateurs ou groupes sur les objets de la base.</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Actions élémentaires sur les tables (création, lecture, mise à jour, suppression) dans un processus</li>
+            <li>Attribution des droits selon les tâches d'un acteur</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>La représentation de ces actions élémentaires (création, lecture, mise à jour, suppression de données)
+              en BPMN n'est pas attendue.</li>
+            <li>Se limiter à l'identification des droits fondamentaux attribuables aux utilisateurs ou groupes
+              d'utilisateurs sur les objets de la base (droits de lecture, écriture, modification, suppression), sans
+              entrer dans les concepts avancés de sécurité.</li>
+            <li>L'attribution des droits à l'aide d'un langage informatique n'est pas attendue.</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+    <div class="commentary">
+      <ul>
+        <li>Se limiter à la présentation de quelques objets de données et/ou de quelques banques de données dans le
+          diagramme BPMN.</li>
+        <li>La représentation en BPMN de ces actions élémentaires et des tables correspondantes n'est pas attendue.</li>
+        <li>La détermination des droits CIMS des utilisateurs ou groupes d'utilisateurs sur les objets de la base peut
+          se faire dans un tableau récapitulatif.</li>
+      </ul>
+    </div>
+
+    <div class="section-title" id="p3-2">3.2 Comprendre la contribution des progiciels à la performance des processus (7
+      heures)</div>
+    <div class="content-block">
+      <p>Le système d'information contribue au bon déroulement des processus en fournissant un support sous la forme
+        d'applications informatiques, de logiciels ou de progiciels. Leur connaissance et maîtrise concourent
+        directement à la qualité de l'information produite et communiquée dans et hors de l'organisation. Ces outils
+        permettent en outre d'assurer la traçabilité des opérations réalisées au sein des flux de travail (workflows).
+      </p>
+    </div>
+    <table>
+      <colgroup>
+        <col class="c1">
+        <col class="c2">
+        <col class="c3">
+      </colgroup>
+      <tr>
+        <th>Compétences professionnelles</th>
+        <th>Connaissances et savoirs associés</th>
+        <th>Limites des connaissances et précisions du champ d'étude</th>
+      </tr>
+      <tr>
+        <td>
+          <ul>
+            <li>Identifier les paramètres à vérifier/modifier/mettre en œuvre dans les progiciels métiers.</li>
+            <li>Utiliser un progiciel métier pour participer aux processus.</li>
+            <li>Interpréter un flux de travail (workflow).</li>
+            <li>Vérifier et exploiter la trace des opérations réalisées.</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Progiciels métier (dont PGI) : fonctionnalités, paramétrage, utilisation</li>
+            <li>Flux de travail (workflow)</li>
+            <li>Contribution du SI à la qualité des processus via le workflow</li>
+            <li>Traçabilité des opérations</li>
+          </ul>
+        </td>
+        <td>Pas de modélisation du workflow, seulement interprétation et/ou mise en œuvre dans le progiciel.</td>
+      </tr>
+    </table>
+    <div class="commentary">
+      <ul>
+        <li>Utilisation d'un progiciel métier de type Pennylane, Odoo, Tiime, etc. pour paramétrer un workflow et
+          vérifier la traçabilité des informations.</li>
+        <li>Mettre en évidence le côté opérationnel du workflow par rapport au processus.</li>
+        <li>Se limiter à la présentation dans le diagramme BPMN du workflow de quelques objets de données et/ou de
+          quelques banques de données facilitant l'interprétation.</li>
+      </ul>
+    </div>
+
+    <div class="section-title" id="p3-3">3.3 Comprendre l'apport des technologies émergentes au service de la
+      performance (8 heures)</div>
+    <div class="content-block">
+      <p>L'environnement numérique de l'entreprise évolue. De nouvelles technologies modifient les méthodes de travail
+        mais apportent aussi de nouvelles perspectives aux organisations. Il est nécessaire de les connaître et de
+        comprendre leur apport aux processus de façon à les utiliser de manière efficiente.</p>
+    </div>
+    <table>
+      <colgroup>
+        <col class="c1">
+        <col class="c2">
+        <col class="c3">
+      </colgroup>
+      <tr>
+        <th>Compétences professionnelles</th>
+        <th>Connaissances et savoirs associés</th>
+        <th>Limites des connaissances et précisions du champ d'étude</th>
+      </tr>
+      <tr>
+        <td>
+          <ul>
+            <li>Distinguer les types d'IA.</li>
+            <li>Comprendre les enjeux de l'IA sur le SI.</li>
+            <li>Identifier l'apport de l'IA dans les progiciels métiers et outils bureautiques.</li>
+            <li>Comprendre les apports de la blockchain.</li>
+            <li>Identifier les conséquences de l'IoT.</li>
+            <li>Comprendre et analyser les apports de la Data Analyse et de la Data Science.</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Types d'IA</li>
+            <li>Gestion de la relation client (chatbot, analyse comportementale)</li>
+            <li>Détection de fraudes</li>
+            <li>Modification des processus et transformation des métiers</li>
+            <li>Machine learning, No-code</li>
+            <li>Assistance aux utilisateurs</li>
+            <li>Blockchain, IoT</li>
+            <li>Data Analyse, Data Science</li>
+          </ul>
+        </td>
+        <td>Se limiter au rôle et à l'impact sur la performance du SI de chacune des technologies émergentes (liste non
+          exhaustive), ainsi qu'à des exemples d'usage de ces technologies. Leur fonctionnement technique n'a pas à être
+          détaillé.</td>
+      </tr>
+    </table>
+    <div class="commentary">
+      <ul>
+        <li>Cette partie du référentiel introduit de nouvelles compétences et connaissances au regard du programme 2019.
+        </li>
+        <li>Les types d'IA traitées à minima : générative, de reconnaissance, prédictive et prescriptive.</li>
+        <li>Concernant les technologies émergentes, il s'agit d'introduire leur rôle au service de la performance sans
+          entrer de manière détaillée dans les détails techniques (explication accessible des différentes notions).</li>
+        <li>Ces technologies sont essentiellement abordées du point de vue de l'utilisateur.</li>
+      </ul>
+    </div>
+
+    <!-- PARTIE 4 -->
+    <div class="part-title" id="p4">Partie 4 – Appréhender les défis du système d'information en termes de
+      règlementation, sécurité et durabilité (30 heures)</div>
+    <div class="content-block">
+      <p>Le système d'information fait face à des défis majeurs liés aux évolutions technologiques, réglementaires et
+        environnementales. La prise de conscience croissante de son impact écologique a entraîné de nouvelles attentes
+        de l'opinion publique, du législateur et des acteurs du secteur. Les obligations légales imposent aux
+        organisations d'adapter leurs pratiques pour protéger les données personnelles et respecter des cadres
+        juridiques complexes sous peine de lourdes sanctions.</p>
+      <p>Comprendre et relever ces défis est essentiel pour assurer la résilience du système d'information et son
+        adéquation aux exigences sociétales et environnementales actuelles.</p>
+    </div>
+
+    <div class="section-title" id="p4-1">4.1 Respecter la réglementation sur l'utilisation des données et des outils
+      numériques (8 heures)</div>
+    <div class="content-block">
+      <p>La collecte et le traitement des données par les organisations font l'objet d'une attention croissante de la
+        part du législateur. Des organismes de contrôle français et internationaux veillent à l'application des lois et
+        règlements qui concernent les libertés des personnes, le contenu et la sécurité des données, les obligations des
+        responsables des traitements. Les différents acteurs doivent connaître les principaux textes applicables ou en
+        discussion relatifs à l'utilisation des données et des outils numériques (logiciels, bots...) qui permettent de
+        les manipuler au sein de l'organisation.</p>
+    </div>
+    <table>
+      <colgroup>
+        <col class="c1">
+        <col class="c2">
+        <col class="c3">
+      </colgroup>
+      <tr>
+        <th>Compétences professionnelles</th>
+        <th>Connaissances et savoirs associés</th>
+        <th>Limites des connaissances et précisions du champ d'étude</th>
+      </tr>
+      <tr>
+        <td>
+          <ul>
+            <li>Identifier dans le SI les données assujetties à la réglementation.</li>
+            <li>Vérifier la mise en œuvre des principaux textes réglementaires (données, outils numériques).</li>
+            <li>Identifier les principales catégories de licences de logiciels.</li>
+            <li>Identifier l'impact des outils numériques sur la protection des données.</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Législation : rôle de l'autorité nationale de protection des données, caractéristiques des données
+              soumises (DCP, données sensibles), obligations du responsable des traitements, droits des personnes</li>
+            <li>Droits associés aux catégories de licences</li>
+            <li>Règlement européen sur l'IA (IA Act)</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Les autorités participant à la réglementation et sa mise en œuvre peuvent être évoquées ainsi que les
+              sanctions encourues, mais les compétences sont axées sur les droits et les obligations qui en découlent.
+            </li>
+            <li>Il s'agit de sensibiliser aux menaces pesant sur les données renseignées dans un outil d'intelligence
+              artificielle.</li>
+            <li>Se limiter à l'identification des droits généraux associés aux catégories courantes de licences
+              logicielles, sans entrer dans l'analyse juridique des contrats de licence complexes.</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+    <div class="commentary">
+      <ul>
+        <li>Cette partie intègre, en plus de ce qui était étudié dans le programme 2019, une sensibilisation aux risques
+          inhérents à l'usage de l'IA et à son encadrement.</li>
+        <li>Mettre l'accent sur le fait que les obligations inhérentes à l'IA Act dépendent du niveau de risque.</li>
+      </ul>
+    </div>
+
+    <div class="section-title" id="p4-2">4.2 Garantir la sécurisation du système d'information et des échanges de
+      données (14 heures)</div>
+    <div class="content-block">
+      <p>De par la nature du SI, le stockage et l'échange des données sont omniprésents. Dans ce contexte, la
+        sécurisation du système d'information est un enjeu de premier plan pour répondre aux obligations réglementaires
+        (4.1) et assurer la confiance dans l'organisation.</p>
+      <p>Chaque acteur doit pouvoir identifier les risques pesant sur la sécurité du SI et les procédures à mettre en
+        œuvre pour prévenir leur réalisation.</p>
+    </div>
+    <table>
+      <colgroup>
+        <col class="c1">
+        <col class="c2">
+        <col class="c3">
+      </colgroup>
+      <tr>
+        <th>Compétences professionnelles</th>
+        <th>Connaissances et savoirs associés</th>
+        <th>Limites des connaissances et précisions du champ d'étude</th>
+      </tr>
+      <tr>
+        <td>
+          <ul>
+            <li>Identifier et hiérarchiser les principaux risques liés à la sécurité du SI.</li>
+            <li>Identifier les mesures de protection à mettre en place.</li>
+            <li>Appliquer les procédures de sécurité.</li>
+            <li>Analyser la fiabilité des procédures et traitements.</li>
+            <li>Prendre en compte la dimension humaine dans la gestion des risques.</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Critères de sécurité (disponibilité, intégrité/inaltérabilité, confidentialité, traçabilité,
+              imputabilité et non-répudiation, authenticité)</li>
+            <li>Signature électronique et certificat numérique</li>
+            <li>Risques, menaces, vulnérabilités</li>
+            <li>Responsabilité de la sécurité du SI</li>
+            <li>Rôle du facteur humain</li>
+            <li>Outils et procédures de protection, sauvegarde, restauration</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Les différents types de chiffrement n'ont pas à être présentés.</li>
+            <li>Se limiter à la compréhension des principes fondamentaux de la sécurité des systèmes d'information.</li>
+            <li>S'appuyer sur l'aspect fonctionnel des outils et non leur technicité.</li>
+            <li>Se limiter à la compréhension de la répartition des responsabilités générales (direction, DSI,
+              utilisateurs).</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+    <div class="commentary">
+      <ul>
+        <li>Connaître les principaux piliers de la sécurité informatique.</li>
+        <li>Suivre l'évolution des risques et des menaces pesant sur la sécurité des SI, notamment ceux relatifs aux IA.
+        </li>
+      </ul>
+    </div>
+
+    <div class="section-title" id="p4-3">4.3 Découvrir la durabilité (8 heures)</div>
+    <div class="content-block">
+      <p>L'impact écologique et environnemental des activités humaines est devenu une préoccupation importante des
+        organisations. Il leur est en effet demandé de réfléchir et de rendre des comptes sur l'utilisation des
+        ressources. Le nombre d'appareils digitaux utilisés quotidiennement a explosé et les usages poussent à une
+        consommation toujours plus importante de ressources numériques.</p>
+      <p>Des pratiques efficaces et vertueuses permettent de réduire sensiblement l'impact environnemental du système
+        d'information et de se conformer à la réglementation.</p>
+    </div>
+    <table>
+      <colgroup>
+        <col class="c1">
+        <col class="c2">
+        <col class="c3">
+      </colgroup>
+      <tr>
+        <th>Compétences professionnelles</th>
+        <th>Connaissances et savoirs associés</th>
+        <th>Limites des connaissances et précisions du champ d'étude</th>
+      </tr>
+      <tr>
+        <td>
+          <ul>
+            <li>Identifier les impacts environnementaux du SI.</li>
+            <li>Proposer des pratiques minimisant les impacts environnementaux du SI.</li>
+            <li>Appliquer la réglementation en matière de durabilité.</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Impacts positifs et négatifs, empreinte écologique</li>
+            <li>Pratiques relatives à l'énergie, aux matériels, aux comportements, aux données</li>
+            <li>Réglementation : loi REEN</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Comprendre les enjeux de la durabilité numérique et l'impact de la loi REEN sur les pratiques des
+              entreprises, mais sans détailler les aspects techniques (comme les infrastructures informatiques) ou
+              juridiques (inutile de connaître les sanctions précises en cas de non-respect, ni les normes de
+              certification environnementale).</li>
+            <li>Se limiter à une approche qualitative des impacts positifs (dématérialisation réduisant certains
+              déplacements, réduction de la consommation de papier, ...) et négatifs (surconsommation énergétique,
+              multiplication des terminaux, ...), sans analyse quantitative ni modélisation d'impact global.</li>
+            <li>Se limiter à la connaissance et à la proposition de bonnes pratiques concrètes dans les domaines de la
+              gestion de l'énergie, des choix et gestion des matériels, des comportements numériques responsables sans
+              entrer dans l'analyse du cycle de vie complet des équipements ni dans l'évaluation environnementale
+              technique (bilan carbone, etc.).</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+    <div class="commentary">
+      <ul>
+        <li>Cette partie du référentiel introduit de nouvelles compétences et connaissances au regard du programme 2019.
+        </li>
+        <li>Optimisation des processus, réduction du gaspillage, support de l'économie circulaire, réduction des
+          déplacements, sensibilisation à la durabilité par les données, dématérialisation et économies de papier et de
+          transport...</li>
+        <li>Consommation énergétique (data center, IA...), pollution électronique, extraction de matières premières,
+          obsolescence programmée...</li>
+        <li>Virtualisation, data center à énergies renouvelables, réparabilité, recyclage, reconditionnement,
+          télétravail, formation aux gestes éco responsables, GED, boîtes mails limitées, gestion des Dark Data...</li>
+      </ul>
+    </div>
+
+    <!-- 2. REFERENCES PEDAGOGIQUES -->
+    <div class="part-title" id="partie2">2. Les références pédagogiques pour l'enseignant</div>
+    <div class="content-block">
+      <p>Les supports élaborés dans le cadre du programme de 2019, en particulier le guide pédagogique, demeurent
+        mobilisables pour l'enseignement de plusieurs thématiques du nouveau référentiel.</p>
+    </div>
+
+    <div class="part-title" id="r-p1">Partie 1 – Comprendre le système d'information dans son environnement (30 heures)
+    </div>
+
+    <div class="section-title" id="r1-1">1.1 Appréhender le rôle du système d'information dans les organisations (6
+      heures)</div>
+    <div class="content-block">
+      <ul>
+        <li>Ressources issues de la version antérieure du programme (2019)</li>
+        <li>Dama France — Les cahiers techniques « Qualité des données »</li>
+      </ul>
+    </div>
+
+    <div class="section-title" id="r1-2">1.2 Identifier les acteurs du système d'information (4 heures)</div>
+    <div class="content-block">
+      <ul>
+        <li>Ressources issues de la version antérieure du programme (2019)</li>
+        <li>Cigref — Nomenclature des profils métiers du SI</li>
+        <li>Cigref — Relations DSI-Métiers</li>
+      </ul>
+    </div>
+
+    <div class="section-title" id="r1-3">1.3 Comprendre l'infrastructure technique du système d'information au service
+      de l'organisation (6 heures)</div>
+    <div class="content-block">
+      <ul>
+        <li>Ressources issues de la version antérieure du programme (2019)</li>
+        <li>Site de l'ANSSI</li>
+      </ul>
+    </div>
+
+    <div class="section-title" id="r1-4">1.4 Appréhender les solutions informatiques du système d'information (6 heures)
+    </div>
+    <div class="content-block">
+      <ul>
+        <li>Ressources issues de la version antérieure du programme (2019)</li>
+        <li><a
+            href="https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/2023/R2023_05/R2023_05.pdf"
+            target="_blank">anc.gouv.fr — règlement ANC 2023-05 (facturation électronique)</a></li>
+      </ul>
+    </div>
+
+    <div class="section-title" id="r1-5">1.5 Comprendre les choix organisationnels liés au système d'information,
+      nécessaires pour s'adapter à son environnement (8 heures)</div>
+    <div class="content-block">
+      <ul>
+        <li>France Num</li>
+        <li>Cigref</li>
+        <li>Numeum</li>
+        <li>BPI France</li>
+        <li>AFNOR</li>
+      </ul>
+    </div>
+
+    <div class="part-title" id="r-p2">Partie 2 – Gérer des données du système d'information (110 heures)</div>
+
+    <div class="section-title" id="r2-1">2.1 Structurer et manipuler des données via les bases de données (45 heures)
+    </div>
+
+    <div class="subsection-title" id="r2-1-1">2.1.1 Structurer une base de données</div>
+    <div class="content-block">
+      <ul>
+        <li>Ressources issues de la version antérieure du programme (2019)</li>
+      </ul>
+    </div>
+
+    <div class="subsection-title" id="r2-1-2">2.1.2 Manipuler des données d'une base de données</div>
+    <div class="content-block">
+      <ul>
+        <li><a href="https://learnsql.fr/blog/l-histoire-des-normes-sql/" target="_blank">learnsql.fr — L'histoire des
+            normes SQL</a></li>
+        <li>« SQL Les fondamentaux du langage » (avec exercices et corrigés), 6<sup>e</sup> édition, Anne-Christine
+          Bisson, éditions ENI</li>
+      </ul>
+    </div>
+
+    <div class="section-title" id="r2-2">2.2 Traiter des données via le tableur pour résoudre des problèmes de gestion
+      et aider à la décision (65 heures)</div>
+
+    <div class="subsection-title" id="r2-2-1">2.2.1 Automatiser la résolution des problèmes de gestion</div>
+    <div class="content-block">
+      <ul>
+        <li><a href="https://www.crcf-edu.fr/ressources" target="_blank">crcf-edu.fr/ressources</a></li>
+        <li><a href="https://www.lecompagnon.info/excel/" target="_blank">lecompagnon.info/excel</a></li>
+        <li>Docteur Excel : <a href="https://www.youtube.com/channel/UCTowJtUSbFQe_pk4dUiH5CQ"
+            target="_blank">youtube.com/channel/UCTowJtUSbFQe_pk4dUiH5CQ</a></li>
+      </ul>
+    </div>
+
+    <div class="subsection-title" id="r2-2-2">2.2.2 Auditer une feuille de calcul</div>
+    <div class="content-block">
+      <ul>
+        <li><a href="https://dashboardsexcel.com/fr/blogs/blog/understanding-auditing-in-excel"
+            target="_blank">dashboardsexcel.com — Understanding Auditing in Excel</a></li>
+      </ul>
+    </div>
+
+    <div class="subsection-title" id="r2-2-3">2.2.3 Mettre en œuvre des programmes au sein du tableur</div>
+    <div class="content-block">
+      <ul>
+        <li><a href="https://eric.univ-lyon2.fr/ricco/cours/excel/" target="_blank">eric.univ-lyon2.fr — cours
+            Excel/VBA</a></li>
+      </ul>
+    </div>
+
+    <div class="part-title" id="r-p3">Partie 3 – Analyser le système d'information au regard de la performance des
+      processus (30 heures)</div>
+
+    <div class="section-title" id="r3-1">3.1 Étudier les processus de l'organisation (15 heures)</div>
+
+    <div class="subsection-title" id="r3-1-1">3.1.1 Comprendre et représenter les processus de l'organisation</div>
+    <div class="content-block">
+      <ul>
+        <li><a href="https://www.youtube.com/@mooccartopros4603/videos"
+            target="_blank">youtube.com/@mooccartopros4603</a></li>
+        <li><a href="https://bpm.developpez.com/cours/#bpmn" target="_blank">bpm.developpez.com</a></li>
+        <li>Un outil gratuit en ligne pour réaliser les diagrammes : BPMN Editor (demo.bpmn.io)</li>
+        <li>Autres outils : Bizagi Modeler, Lucidchart.com</li>
+      </ul>
+    </div>
+
+    <div class="subsection-title" id="r3-1-2">3.1.2 Identifier le lien entre processus et bases de données</div>
+    <div class="content-block">
+      <ul>
+        <li><a href="https://processmind.com/resources/blog/what-is-bpmn-20" target="_blank">processmind.com — What is
+            BPMN 2.0</a></li>
+      </ul>
+    </div>
+
+    <div class="section-title" id="r3-2">3.2 Comprendre la contribution des progiciels à la performance des processus (7
+      heures)</div>
+    <div class="content-block">
+      <ul>
+        <li><a
+            href="https://bpmtips.com/bpmn-miwg-demonstration-2018-nearly-everything-you-always-wanted-to-know-about-data-objects-but-were-afraid-to-ask/"
+            target="_blank">bpmtips.com — les objets de données en BPMN</a></li>
+      </ul>
+    </div>
+
+    <div class="section-title" id="r3-3">3.3 Comprendre l'apport des technologies émergentes au service de la
+      performance (8 heures)</div>
+    <div class="content-block">
+      <ul>
+        <li><a href="https://www.enseignementsup-recherche.gouv.fr/fr/intelligence-artificielle-de-quoi-parle-t-91190"
+            target="_blank">enseignementsup-recherche.gouv.fr — Intelligence artificielle, de quoi parle-t-on ?</a></li>
+      </ul>
+    </div>
+
+    <div class="part-title" id="r-p4">Partie 4 – Appréhender les défis du système d'information en termes de
+      règlementation, sécurité et durabilité (30 heures)</div>
+
+    <div class="section-title" id="r4-1">4.1 Respecter la réglementation sur l'utilisation des données et des outils
+      numériques (8 heures)</div>
+    <div class="content-block">
+      <ul>
+        <li><a href="https://www.cnil.fr/fr/comprendre-le-rgpd/le-mooc-de-la-cnil" target="_blank">cnil.fr — le MOOC de
+            la CNIL</a> : pour se former au RGPD et aux problématiques d'implémentation dans les organisations</li>
+        <li>Les ressources de la CNIL et de l'ANSSI</li>
+      </ul>
+    </div>
+
+    <div class="section-title" id="r4-2">4.2 Garantir la sécurisation du système d'information et des échanges de
+      données (14 heures)</div>
+    <div class="content-block">
+      <ul>
+        <li><a href="https://secnumacademie.gouv.fr/" target="_blank">secnumacademie.gouv.fr</a> : un MOOC pour se
+          former à la cybersécurité</li>
+        <li><a href="https://cyber.gouv.fr/" target="_blank">cyber.gouv.fr</a></li>
+      </ul>
+    </div>
+
+    <div class="section-title" id="r4-3">4.3 Découvrir la durabilité (8 heures)</div>
+    <div class="content-block">
+      <ul>
+        <li>Guide « En route vers la sobriété numérique » de l'Ademe et du Ministère de l'Écologie (<a
+            href="https://www.ecologie.gouv.fr/sites/default/files/documents/guide-en-route-vers-sobriete-numerique.pdf"
+            target="_blank">ecologie.gouv.fr</a>)</li>
+        <li>Les guides de l'Ademe (magazine n°175 sur les impacts du numérique)</li>
+        <li>Les travaux du Shift Project, notamment « Déployer la sobriété numérique » (<a
+            href="https://theshiftproject.org/publications/deployer-sobriete-numerique/"
+            target="_blank">theshiftproject.org</a>)</li>
+      </ul>
+    </div>
+
+    <!-- 3. PROPOSITIONS DE DEMARCHE PEDAGOGIQUE -->
+    <div class="part-title" id="partie3">3. Des propositions de démarche pédagogique en classe</div>
+
+    <div class="part-title" id="d-p1">Partie 1 – Comprendre le système d'information dans son environnement (30 heures)
+    </div>
+
+    <div class="section-title" id="a1-1">1.1 Appréhender le rôle du système d'information dans les organisations (6
+      heures)</div>
+    <div class="activity-card">
+      <p>À partir d'un contexte d'entreprise (texte, courte vidéo ou infographie) montrant des flux d'information dans
+        une entreprise (exemple : commande client, facturation, comptabilité) introduire la notion de SI afin de :</p>
+      <ul>
+        <li>Présenter les notions de donnée, information, connaissance
+          <ul>
+            <li>Définir chaque notion et illustrer par un exemple concret.</li>
+            <li>Montrer que la qualité du SI dépend de la qualité de l'information produite.</li>
+            <li>Étudier les critères de qualité et leurs enjeux.</li>
+          </ul>
+        </li>
+        <li>Présenter la notion de SI
+          <ul>
+            <li>Définir le SI comme un ensemble organisé de ressources permettant de gérer et diffuser l'information
+              utile à la prise de décision (faire le lien avec la qualité de l'information)</li>
+            <li>Situer le SI dans les différentes fonctions de l'entreprise (commerciale, RH, comptable…).</li>
+            <li>Analyser les fonctions du système d'information</li>
+            <li>Mettre en évidence la complémentarité et les interdépendances entre les différents types de ressources.
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <div class="section-title" id="a1-2">1.2 Identifier les acteurs du système d'information (4 heures)</div>
+    <div class="activity-card">
+      <ul>
+        <li>Utiliser différents documents en appui du cours afin de réaliser une présentation guidée et/ou une analyse
+          du rôle du SI et des profils métiers associés selon le référentiel :
+          <ul>
+            <li>des extraits de fiches de poste (DSI, développeur, data analyst, etc.) ;</li>
+            <li>des fiches métier issues du Cigref (compétences, missions, interactions) ;</li>
+            <li>des vidéos de présentation métiers (ONISEP, Cigref) ;</li>
+            <li>un cas d'externalisation d'un développement applicatif (analyse des interactions MOA/MOE, relation avec
+              une ESN, etc.) ;</li>
+            <li>un organigramme d'entreprise pour situer la DSI ;</li>
+            <li>un schéma fonctionnel illustrant les interactions SI/métiers ;</li>
+            <li>etc.</li>
+          </ul>
+        </li>
+        <li>Réaliser une mise en situation à travers un jeu de rôle (simulation d'une demande d'évolution du SI).</li>
+      </ul>
+    </div>
+
+    <div class="section-title" id="a1-3">1.3 Comprendre l'infrastructure technique du système d'information au service
+      de l'organisation (6 heures)</div>
+    <div class="activity-card">
+      <ul>
+        <li>Introduire l'infrastructure à travers des exemples concrets :
+          <ul>
+            <li>Comment un utilisateur peut-il accéder au SI depuis l'extérieur de l'entreprise ?</li>
+            <li>Où est stockée une facture créée dans un PGI ?</li>
+            <li>Qui gère l'authentification ?</li>
+            <li>Qui assure la mise à disposition des données/fichiers ?</li>
+            <li>Pourquoi peut-on accéder à une application SaaS depuis un smartphone ?</li>
+            <li>Pourquoi une application peut-elle ralentir lorsque le nombre d'utilisateurs est très important ?</li>
+            <li>Que se passe-t-il en cas de panne d'un serveur ?</li>
+            <li>Comment les données circulent-elles entre un utilisateur et un serveur distant ?</li>
+            <li>Un serveur correspond-il toujours à une machine physique ?</li>
+            <li>etc.</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <div class="section-title" id="a1-4">1.4 Appréhender les solutions informatiques du système d'information (6 heures)
+    </div>
+    <div class="activity-card">
+      <ul>
+        <li>Localiser les documents de synthèse dans un logiciel de gestion pour les exporter dans un tableur.</li>
+        <li>Exporter un FEC.</li>
+      </ul>
+    </div>
+
+    <div class="section-title" id="a1-5">1.5 Comprendre les choix organisationnels liés au système d'information,
+      nécessaires pour s'adapter à son environnement (8 heures)</div>
+    <div class="activity-card">
+      <ul>
+        <li>Proposer un extrait de contrat de prestations de services pour identifier les clauses spécifiques.</li>
+      </ul>
+    </div>
+
+    <div class="part-title" id="d-p2">Partie 2 – Gérer des données du système d'information (110 heures)</div>
+
+    <div class="section-title" id="d2-1">2.1 Structurer et manipuler des données via les bases de données (45 heures)
+    </div>
+
+    <div class="subsection-title" id="a2-1-1">2.1.1 Structurer une base de données</div>
+    <div class="activity-card">
+      <p>À partir d'un contexte d'entreprise simplifié, proposer aux étudiants un ensemble de documents décrivant les
+        données manipulées par l'organisation, il sera possible :</p>
+      <ul>
+        <li>d'identifier les données manipulées en repérant dans les documents les informations utiles ;</li>
+        <li>de distinguer les relations, leurs attributs, les clés primaires et étrangères ;</li>
+        <li>de prendre en compte les règles de gestion pour identifier les dépendances fonctionnelles ;</li>
+        <li>de proposer un schéma relationnel et demander aux étudiants d'interpréter la signification des relations
+          entre les tables.</li>
+        <li>d'aborder l'importance de la normalisation en illustrant les problèmes liés à la redondance par exemple et,
+          plus largement, en montrant comment une structuration pertinente des données permet d'éviter les anomalies.
+        </li>
+      </ul>
+    </div>
+
+    <div class="subsection-title" id="a2-1-2">2.1.2 Manipuler des données d'une base de données</div>
+    <div class="activity-card">
+      <p>À partir d'un schéma relationnel ou d'une base de données réelle, proposer des activités de manipulation de
+        données :</p>
+      <ul>
+        <li>formuler un besoin d'information ;</li>
+        <li>construire des requêtes d'extraction plus ou moins complexes ;</li>
+        <li>mettre à jour des occurrences pour corriger ou actualiser certaines informations ;</li>
+        <li>comprendre la notion de contrainte d'intégrité référentielle via des illustrations concrètes ;</li>
+        <li>comprendre qu'un export de données issues d'un SGBDR peut être utile voire nécessaire pour d'autres
+          applications (pour le tableur par exemple) et illustrer concrètement ce point du programme, dans la mesure du
+          possible (en modules méthodologiques par exemple).</li>
+      </ul>
+    </div>
+
+    <div class="section-title" id="d2-2">2.2 Traiter des données via le tableur pour résoudre des problèmes de gestion
+      et aider à la décision (65 heures)</div>
+
+    <div class="subsection-title" id="a2-2-1">2.2.1 Automatiser la résolution des problèmes de gestion</div>
+    <div class="activity-card">
+      <p>À partir d'une situation de gestion nécessitant des calculs (répétitifs), proposer de construire un modèle sous
+        tableur ou de faire évoluer un modèle existant pour :</p>
+      <ul>
+        <li>analyser un problème de gestion pour identifier les données nécessaires et les résultats attendus ;</li>
+        <li>construire ou faire évoluer un modèle de calcul en structurant les feuilles de calcul, en mettant en place
+          les formules nécessaires à l'automatisation des calculs (grâce aux fonctions du tableur), etc. ;</li>
+        <li>identifier les cellules de paramètres permettant de modifier les hypothèses ;</li>
+        <li>introduire les références relatives et absolues ;</li>
+        <li>vérifier la cohérence des résultats obtenus ;</li>
+        <li>comprendre l'intérêt du nommage de cellules ou de plages de cellules ;</li>
+        <li>améliorer l'ergonomie du modèle en mettant en forme la feuille de calcul et en ajoutant des contrôles de
+          saisie par exemple ;</li>
+        <li>mettre en place des tableaux et graphiques croisés dynamiques dans le cadre de la production de synthèse
+          notamment ;</li>
+        <li>importer des données issues d'autres applications (d'une base de données par exemple) afin de les exploiter.
+        </li>
+      </ul>
+    </div>
+
+    <div class="subsection-title" id="a2-2-2">2.2.2 Auditer une feuille de calcul</div>
+    <div class="activity-card">
+      <p>À partir d'une feuille de calcul comportant volontairement des erreurs ou des incohérences, proposer de
+        réaliser un audit du modèle afin :</p>
+      <ul>
+        <li>d'analyser la structure du modèle ;</li>
+        <li>d'identifier les cellules de paramètres, les zones de calcul et les résultats ;</li>
+        <li>d'utiliser les outils d'audit du tableur (tracer les antécédents et les dépendants, repérer les erreurs de
+          formule, etc.) ;</li>
+        <li>de vérifier la cohérence des résultats en comparant les résultats obtenus avec les hypothèses de départ par
+          exemple ou en construisant un jeu d'essai ;</li>
+        <li>de sécuriser le modèle en protégeant certaines cellules, certaines feuilles de calcul voire le classeur puis
+          en vérifiant la fiabilité du modèle.</li>
+      </ul>
+    </div>
+
+    <div class="subsection-title" id="a2-2-3">2.2.3 Mettre en œuvre des programmes au sein du tableur</div>
+    <div class="activity-card">
+      <p>À partir d'une situation de gestion nécessitant l'automatisation d'une tâche répétitive, introduire la notion
+        de programme dans un tableur afin :</p>
+      <ul>
+        <li>Dans un premier temps, de présenter la notion de macro-commande en enregistrant une suite d'actions
+          réalisées dans le tableur et d'analyser le code généré pour identifier les objets fondamentaux du modèle du
+          tableur (classeur, feuille, cellule, plage) et introduire les principales instructions du langage VBA.
+          Ensuite, adapter le code obtenu via l'enregistreur de macro pour répondre à un besoin spécifique ;</li>
+        <li>Dans un second temps, de proposer l'interprétation d'un programme simple répondant à un problème de gestion
+          pour identifier les différentes instructions (affectation de variables, calculs, tests, boucles) et comprendre
+          la logique du programme ;</li>
+        <li>Ensuite, proposer le code d'une procédure et le code d'une fonction ayant la même finalité de calcul pour
+          mettre en évidence les différents cas d'utilisation ;</li>
+        <li>Enfin, faire exécuter, modifier ou compléter une macro-commande afin d'automatiser un traitement sur des
+          données.</li>
+      </ul>
+    </div>
+
+    <div class="part-title" id="d-p3">Partie 3 – Analyser le système d'information au regard de la performance des
+      processus (30 heures)</div>
+
+    <div class="section-title" id="d3-1">3.1 Étudier les processus de l'organisation (15 heures)</div>
+
+    <div class="subsection-title" id="a3-1-1">3.1.1 Comprendre et représenter les processus de l'organisation</div>
+    <div class="activity-card">
+      <ul>
+        <li>Demander la description rédigée d'un processus à partir d'un schéma BPMN représenté.</li>
+        <li>Proposer un diagramme BPMN et tester à l'aide de questions la compréhension de ce diagramme.</li>
+        <li>Proposer un diagramme BPMN à compléter soit pour prendre en compte des éléments du processus non
+          représentés, soit pour introduire une nouvelle règle de gestion, soit pour corriger un dysfonctionnement.</li>
+      </ul>
+    </div>
+
+    <div class="subsection-title" id="a3-1-2">3.1.2 Identifier le lien entre processus et bases de données</div>
+    <div class="activity-card">
+      <ul>
+        <li>Présenter un diagramme BPMN à interpréter (et non construire) avec des artefacts et des objets de données.
+        </li>
+        <li>Présenter un diagramme BPMN, une base de données et une description des interactions processus-données. Le
+          candidat doit être capable d'indiquer les droits CIMS à attribuer à chaque utilisateur pour certaines tables
+          dans un tableau récapitulatif ou identifier et lister les tables mobilisables par le processus.</li>
+      </ul>
+    </div>
+
+    <div class="section-title" id="a3-2">3.2 Comprendre la contribution des progiciels à la performance des processus (7
+      heures)</div>
+    <div class="activity-card">
+      <ul>
+        <li>Paramétrage du progiciel pour introduire une règle de gestion comme un seuil de commande au-delà duquel une
+          validation par le supérieur hiérarchique est nécessaire par exemple.</li>
+        <li>Présenter un diagramme BPMN décrivant des contraintes de validation ou de temps (respect de délais) à
+          implémenter dans un progiciel (schéma de workflow).</li>
+        <li>Rechercher dans une application des traces générées par les différentes opérations réalisées en amont (par
+          exemple, le suivi d'une demande de congé impliquant le supérieur hiérarchique et le DRH, le suivi de la
+          procédure commerciale aboutissant à la facture ou le lien entre l'acquisition des documents commerciaux et
+          l'enregistrement comptable).</li>
+      </ul>
+    </div>
+
+    <div class="section-title" id="a3-3">3.3 Comprendre l'apport des technologies émergentes au service de la
+      performance (8 heures)</div>
+    <div class="activity-card">
+      <ul>
+        <li>Utiliser un progiciel métier utilisant de l'IA générative (comme Pennylane par exemple ou tout autre
+          progiciel comptable permettant de générer des commentaires financiers) ou d'outils de reconnaissance de
+          caractères modernes pour montrer l'apport de l'IA dans l'intégration de documents.</li>
+      </ul>
+    </div>
+
+    <div class="part-title" id="d-p4">Partie 4 – Appréhender les défis du système d'information en termes de
+      règlementation, sécurité et durabilité (30 heures)</div>
+
+    <div class="section-title" id="a4-1">4.1 Respecter la réglementation sur l'utilisation des données et des outils
+      numériques (8 heures)</div>
+    <div class="activity-card">
+      <ul>
+        <li>Travailler sur l'évolution des réglementations au niveau Européen (à l'aide d'une frise par exemple) et
+          comparer avec les législations internationales (États-Unis par exemple).</li>
+        <li>Cas pratique (mise en situation) : quelles démarches entreprendre pour être en conformité avec le RGPD et
+          l'IA Act ?</li>
+      </ul>
+    </div>
+
+    <div class="section-title" id="a4-2">4.2 Garantir la sécurisation du système d'information et des échanges de
+      données (14 heures)</div>
+    <div class="activity-card">
+      <ul>
+        <li>Élaborer ou faire élaborer un tableau synthétique des différentes menaces et des outils et procédures de
+          protection.</li>
+      </ul>
+    </div>
+
+    <div class="section-title" id="a4-3">4.3 Découvrir la durabilité (8 heures)</div>
+    <div class="activity-card">
+      <ul>
+        <li>Étude de cas « Évaluation de l'empreinte carbone d'un SI » suivie d'un plan d'action pour diminuer
+          l'empreinte de 30 % d'ici 3 ans.</li>
+      </ul>
+    </div>
+
+    <!-- 4. TRANSVERSALITE -->
+    <div class="part-title" id="partie4">4. Propositions de démarches pédagogiques dans le cadre des modules
+      méthodologiques</div>
+    <div class="content-block">
+      <p>L'UE8 est une unité d'enseignement fondamentalement transversale du DCG, car elle traite du système
+        d'information qui supporte l'ensemble des activités de gestion de l'organisation. Les transversalités sont
+        particulièrement aisées avec l'UE6, l'UE9 et l'UE11, et également pertinentes en UE7 et UE13.</p>
+      <ul>
+        <li><strong>UE6</strong> : les analyses financières reposent sur des données issues du SI (comptabilité,
+          trésorerie, ventes, investissements) ; l'UE8 permet de comprendre leur structuration, extraction et
+          exploitation.</li>
+        <li><strong>UE9</strong> : la comptabilité est largement intégrée dans des SI (logiciels comptables, ERP) ;
+          l'UE8 permet d'appréhender la structuration des données comptables, les flux et l'automatisation des
+          traitements.</li>
+        <li><strong>UE11</strong> : le contrôle de gestion mobilise largement les outils de traitement des données
+          (tableurs, bases de données, tableaux de bord), pour lesquels l'UE8 constitue un support technique essentiel.
+        </li>
+        <li><strong>UE7</strong> : le SI est un outil de pilotage et de coordination ; l'UE8 permet d'analyser son rôle
+          dans la décision et la transformation numérique.</li>
+        <li><strong>UE13</strong> : les SI structurent les échanges d'information ; l'UE8 contribue à comprendre les
+          outils numériques de communication et de collaboration.</li>
+      </ul>
+    </div>
+
+    <table class="links">
+      <tr>
+        <th>Domaine</th>
+        <th>Compétences professionnelles du référentiel d'UE8</th>
+        <th>Exemples d'exploitations pédagogiques transversales</th>
+      </tr>
+      <tr>
+        <td>Bases de données</td>
+        <td>Extraire des informations d'une base de données.</td>
+        <td><strong>Avec l'UE6 et l'UE11 :</strong>
+          <ul>
+            <li>Exportation de données en vue d'une exploitation sur le tableur</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>Tableur</td>
+        <td>
+          <ul>
+            <li>Contrôler l'adéquation entre le contexte d'un problème de gestion et le modèle créé.</li>
+            <li>Importer des informations d'une base de données.</li>
+            <li>Concevoir des formules de contrôle de cohérence.</li>
+          </ul>
+        </td>
+        <td>
+          <strong>Avec l'UE6 :</strong>
+          <ul>
+            <li>Importation de données</li>
+            <li>Calcul automatisé des soldes intermédiaires de gestion</li>
+            <li>Calcul et analyse de ratios et indicateurs financiers</li>
+            <li>Construction d'un tableau d'analyse financière</li>
+            <li>Construction de tableaux d'emprunt</li>
+            <li>Simulations financières (impact d'une variation d'activité, d'un financement, etc.)</li>
+          </ul>
+          <strong>Avec l'UE11 :</strong>
+          <ul>
+            <li>Importation de données</li>
+            <li>Construction d'un tableau de bord de gestion à partir de données comptables</li>
+            <li>Analyse des marges et de la rentabilité par produit ou activité</li>
+            <li>Analyse des écarts entre données prévisionnelles et données réalisées</li>
+            <li>Construction d'indicateurs de performance (KPI) pour le pilotage de l'activité</li>
+            <li>Utilisation du solveur et du gestionnaire de scénarios dans le cadre de l'aide à la décision</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>Progiciels</td>
+        <td>
+          <ul>
+            <li>Vérifier et exploiter la trace des opérations réalisées.</li>
+            <li>Identifier les paramètres à vérifier, à modifier ou à mettre en œuvre dans les progiciels métiers.</li>
+            <li>Utiliser un progiciel métier pour participer aux processus de l'organisation.</li>
+            <li>Interpréter un flux de travail (workflow).</li>
+          </ul>
+        </td>
+        <td>
+          <strong>Avec l'UE9 :</strong>
+          <ul>
+            <li>Découverte du fonctionnement d'un progiciel métier (à partir de l'importation d'un FEC par exemple)</li>
+            <li>Analyse du processus de facturation dans un progiciel métier</li>
+            <li>Analyse des processus du système d'information d'un cabinet d'expertise comptable</li>
+          </ul>
+          <strong>Avec l'UE11 :</strong>
+          <ul>
+            <li>Contrôle de données comptables issues d'un progiciel</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>IA</td>
+        <td>Identifier l'apport de l'intelligence artificielle (IA) dans les progiciels métiers et les outils
+          bureautiques.</td>
+        <td><strong>Avec l'UE6 :</strong> à partir d'une extraction des SIG ou des documents de synthèse, demander à
+          l'IA de construire un diagnostic financier et en faire une analyse critique par rapport aux attentes du
+          demandeur.</td>
+      </tr>
+      <tr>
+        <td>SI</td>
+        <td>
+          <ul>
+            <li>Identifier les besoins d'évolution du système d'information.</li>
+            <li>Justifier les enjeux de la transition numérique d'une organisation.</li>
+          </ul>
+        </td>
+        <td><strong>Avec l'UE7 :</strong> à partir d'un dossier documentaire, faire une analyse de l'environnement (y
+          compris l'aspect technologique) et montrer l'apport d'une évolution du SI à la construction éventuelle d'un
+          avantage concurrentiel. Prise en compte des parties prenantes et durabilité…</td>
+      </tr>
+    </table>
+
+    <div class="section-title" id="annexe">Annexe UE8 — Principaux éléments du langage VBA à connaître en UE8</div>
+    <table class="links">
+      <tr>
+        <th>Instruction / mot-clé</th>
+        <th>Syntaxe</th>
+        <th>Utilité</th>
+        <th>Exemple</th>
+      </tr>
+      <tr>
+        <td>Sub … End Sub</td>
+        <td>Sub NomMacro()<br>&nbsp;&nbsp;instructions<br>End Sub</td>
+        <td>Déclare une procédure qui exécute une série d'instructions.</td>
+        <td>Sub Bonjour()<br>&nbsp;&nbsp;MsgBox "Bonjour"<br>End Sub</td>
+      </tr>
+      <tr>
+        <td>Dim</td>
+        <td>Dim nomVariable As Type</td>
+        <td>Déclare une variable.</td>
+        <td>Dim i As Integer</td>
+      </tr>
+      <tr>
+        <td>Range</td>
+        <td>Range(reference)</td>
+        <td>Désigne une cellule ou une plage.</td>
+        <td>Range("A1").Value = 10</td>
+      </tr>
+      <tr>
+        <td>Cells</td>
+        <td>Cells(ligne, colonne)</td>
+        <td>Référence une cellule par coordonnées.</td>
+        <td>Cells(2,3).Value = "OK"</td>
+      </tr>
+      <tr>
+        <td>Value</td>
+        <td>expression.Value</td>
+        <td>Lit ou écrit la valeur contenue dans une cellule ou une plage.</td>
+        <td>x = Range("B2").Value</td>
+      </tr>
+      <tr>
+        <td>If … Then … Else</td>
+        <td>If condition Then<br>&nbsp;&nbsp;instructions<br>Else<br>&nbsp;&nbsp;instructions<br>End If</td>
+        <td>Teste une condition et exécute des instructions selon le résultat.</td>
+        <td>If Range("A1").Value > 10 Then<br>&nbsp;&nbsp;MsgBox "Supérieur à 10"<br>End If</td>
+      </tr>
+      <tr>
+        <td>Select Case</td>
+        <td>Select Case expression<br>&nbsp;&nbsp;Case
+          valeur<br>&nbsp;&nbsp;&nbsp;&nbsp;instructions<br>&nbsp;&nbsp;…<br>&nbsp;&nbsp;Case
+          Else<br>&nbsp;&nbsp;&nbsp;&nbsp;instructions<br>End Select</td>
+        <td>Gère plusieurs cas de décision.</td>
+        <td>Select Case note<br>&nbsp;&nbsp;Case Is >= 10<br>&nbsp;&nbsp;&nbsp;&nbsp;resultat =
+          "Admis"<br>&nbsp;&nbsp;Case Else<br>&nbsp;&nbsp;&nbsp;&nbsp;resultat = "Ajourné"<br>End Select</td>
+      </tr>
+      <tr>
+        <td>For … Next</td>
+        <td>For compteur = debut To fin [Step pas]<br>&nbsp;&nbsp;instructions<br>Next compteur</td>
+        <td>Répète un traitement un nombre connu de fois.</td>
+        <td>For i = 1 To 5<br>&nbsp;&nbsp;Cells(i,1).Value = i<br>Next i</td>
+      </tr>
+      <tr>
+        <td>For Each</td>
+        <td>For Each element In ensemble<br>&nbsp;&nbsp;instructions<br>Next element</td>
+        <td>Parcourt chaque élément d'un ensemble d'objets ou de cellules.</td>
+        <td>For Each c In Range("A1:A5")<br>&nbsp;&nbsp;c.Value = c.Value * 2<br>Next c</td>
+      </tr>
+      <tr>
+        <td>Do While / Loop</td>
+        <td>Do While condition<br>&nbsp;&nbsp;instructions<br>Loop</td>
+        <td>Répète, tant qu'une condition reste vraie, une ou plusieurs instructions (test avant).</td>
+        <td>Do While Cells(i,1).Value <> ""<br>&nbsp;&nbsp;i = i + 1<br>Loop</td>
+      </tr>
+      <tr>
+        <td>Do / Loop While</td>
+        <td>Do<br>&nbsp;&nbsp;instructions<br>Loop While condition</td>
+        <td>Répète une ou plusieurs instructions tant qu'une condition reste vraie (test après).</td>
+        <td>i = 0<br>Do<br>&nbsp;&nbsp;i = i + 1<br>Loop While Cells(i,1).Value <> ""</td>
+      </tr>
+      <tr>
+        <td>Do Until / Loop</td>
+        <td>Do Until condition<br>&nbsp;&nbsp;instructions<br>Loop</td>
+        <td>Répète, jusqu'à ce qu'une condition soit vraie, une ou plusieurs instructions (test avant).</td>
+        <td>i = 1<br>Do Until Cells(i,1).Value = ""<br>&nbsp;&nbsp;i = i + 1<br>Loop</td>
+      </tr>
+      <tr>
+        <td>Do / Loop Until</td>
+        <td>Do<br>&nbsp;&nbsp;instructions<br>Loop Until condition</td>
+        <td>Répète une ou plusieurs instructions, jusqu'à ce qu'une condition soit vraie (test après).</td>
+        <td>i = 0<br>Do<br>&nbsp;&nbsp;i = i + 1<br>Loop Until Cells(i,1).Value = ""</td>
+      </tr>
+      <tr>
+        <td>MsgBox</td>
+        <td>MsgBox message</td>
+        <td>Affiche une boîte de dialogue.</td>
+        <td>MsgBox "Traitement terminé"</td>
+      </tr>
+      <tr>
+        <td>InputBox</td>
+        <td>variable = InputBox(message)</td>
+        <td>Demande une saisie à l'utilisateur.</td>
+        <td>nom = InputBox("Entrez votre nom")</td>
+      </tr>
+      <tr>
+        <td>Function … End Function</td>
+        <td>Function NomFonction(parametres) As Type<br>&nbsp;&nbsp;instructions<br>&nbsp;&nbsp;NomFonction =
+          resultat<br>End Function</td>
+        <td>Crée une fonction personnalisée qui renvoie une valeur.</td>
+        <td>Function Carre(x As Double) As Double<br>&nbsp;&nbsp;Carre = x * x<br>End Function</td>
+      </tr>
+    </table>
+    <div class="content-block">
+      <p><em>Remarques :</em> les objets Excel les plus fréquents sont Workbook, Worksheet, Range et Cell. Une macro est
+        le plus souvent rédigée entre <code>Sub … End Sub</code>. Une fonction personnalisée est rédigée entre
+        <code>Function … End Function</code>.</p>
+    </div>
+
+    <div class="section-title" id="annexe2">Exemples d'instructions pour lesquelles une documentation serait fournie
+      dans un sujet d'examen</div>
+    <table class="links">
+      <tr>
+        <th>Instruction / mot-clé</th>
+        <th>Syntaxe</th>
+        <th>Utilité</th>
+        <th>Exemple</th>
+      </tr>
+      <tr>
+        <td>Set</td>
+        <td>Set variableObjet = objet</td>
+        <td>Affecte une référence d'objet à une variable.</td>
+        <td>Dim ws As Worksheet<br>Set ws = Sheets("Feuil1")</td>
+      </tr>
+      <tr>
+        <td>Offset</td>
+        <td>expression.Offset(lignes, colonnes)</td>
+        <td>Se décale par rapport à une cellule de référence.</td>
+        <td>Range("A1").Offset(1, 0).Value = "Ligne suivante"</td>
+      </tr>
+      <tr>
+        <td>With … End With</td>
+        <td>With objet<br>&nbsp;&nbsp;instructions<br>End With</td>
+        <td>Permet d'exécuter plusieurs instructions sur le même objet sans le répéter. Améliore la lisibilité du code.
+        </td>
+        <td>With Range("B2")<br>&nbsp;&nbsp;.Interior.ColorIndex = 6<br>&nbsp;&nbsp;.Font.Bold = True<br>End With</td>
+      </tr>
+      <tr>
+        <td>Rows.Count + End(xlUp)</td>
+        <td>Cells(Rows.Count, colonne).End(xlUp).Row</td>
+        <td>Permet de trouver la dernière ligne non vide d'une colonne.</td>
+        <td>derLigne = Cells(Rows.Count, 1).End(xlUp).Row</td>
+      </tr>
+    </table>
+
+  </div>
+
+</body>
+
+</html>
