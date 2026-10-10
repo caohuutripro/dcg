@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV – Cao Huu Tri – Stage DCG</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      font-size: 13px;
+      line-height: 1.45;
+      color: #1a1a1a;
+      background: #f0f2f5;
+      padding: 20px;
+    }
+
+    .cv {
+      max-width: 765px;
+      margin: 0 auto;
+      background: #ffffff;
+      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+      border-radius: 8px;
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      /* Hauteur adaptée au contenu (plus d’espace vide en bas) */
+      min-height: auto;
+      height: auto;
+    }
+
+    /* Sidebar */
+    .sidebar {
+      background: #001286;
+      color: #ffffff;
+      padding: 32px 24px;
+    }
+
+    .name {
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: -0.3px;
+      margin-bottom: 4px;
+      line-height: 1.2;
+
+    }
+
+    .title {
+      font-size: 13px;
+      font-weight: 500;
+      color: #fff;
+      margin-bottom: 20px;
+    }
+
+    .contact {
+      font-size: 12px;
+      line-height: 1.7;
+      margin-bottom: 28px;
+      color: #fff;
+    }
+
+    .contact a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .section-title {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      color: #7eb8e8;
+      margin-bottom: 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid rgba(126, 184, 232, 0.3);
+    }
+
+    .sidebar .section {
+      margin-bottom: 20px;
+    }
+
+    .sidebar ul {
+      list-style: none;
+    }
+
+    .sidebar li {
+      margin-bottom: 8px;
+      font-size: 12.5px;
+      line-height: 1.4;
+    }
+
+    .skill-item {
+      margin-bottom: 10px;
+    }
+
+    .skill-name {
+      font-weight: 600;
+      font-size: 12.5px;
+    }
+
+    .skill-desc {
+      font-size: 12px;
+      color: #b8d0e8;
+      margin-top: 2px;
+    }
+
+    .lang-item {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 6px;
+      font-size: 12.5px;
+    }
+
+    .lang-level {
+      color: #b8d0e8;
+      font-weight: 500;
+    }
+
+    /* Main content */
+    .main {
+      padding: 28px 28px 22px;
+    }
+
+    .main h2 {
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.1px;
+      color: #001286;
+      margin-bottom: 12px;
+      padding-bottom: 6px;
+      border-bottom: 2px solid #001286;
+    }
+
+    .main .section {
+      margin-bottom: 16px;
+    }
+
+    .profil {
+      font-size: 13px;
+      line-height: 1.55;
+      color: #333;
+      text-align: justify;
+    }
+
+    .exp-item,
+    .edu-item {
+      margin-bottom: 14px;
+    }
+
+    .exp-header,
+    .edu-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 4px;
+    }
+
+    .exp-title,
+    .edu-title {
+      font-weight: 600;
+      font-size: 13px;
+      color: #1a1a1a;
+    }
+
+    .exp-date,
+    .edu-date {
+      font-size: 12px;
+      color: #666;
+      font-weight: 500;
+      white-space: nowrap;
+    }
+
+    .exp-place,
+    .edu-place {
+      font-size: 12px;
+      color: #555;
+      margin-bottom: 4px;
+    }
+
+    .exp-item ul,
+    .edu-item ul {
+      margin-left: 16px;
+      margin-top: 3px;
+    }
+
+    .exp-item li,
+    .edu-item li {
+      font-size: 12.5px;
+      margin-bottom: 2px;
+      color: #333;
+    }
+
+    .interests li {
+      margin-bottom: 6px;
+      font-size: 12.5px;
+      list-style: none;
+    }
+
+    .highlight {
+      color: #001286;
+      font-weight: 500;
+    }
+
+    @media print {
+      body {
+        background: white;
+        padding: 0;
+      }
+
+      .cv {
+        box-shadow: none;
+        border-radius: 0;
+        max-width: 100%;
+      }
+    }
+
+
+    /* Adaptation aux téléphones et petites tablettes */
+    @media screen and (max-width: 600px) {
+      body {
+        padding: 0;
+        font-size: 14px;
+      }
+
+      .cv {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        border-radius: 0;
+        overflow: visible;
+      }
+
+      .sidebar,
+      .main {
+        width: 100%;
+        min-width: 0;
+        padding: 22px 18px;
+      }
+
+      .name {
+        font-size: 25px;
+        overflow-wrap: anywhere;
+      }
+
+      .contact,
+      .skill-desc,
+      .profil,
+      .exp-item li,
+      .edu-item li,
+      .interests li {
+        overflow-wrap: anywhere;
+        word-break: normal;
+      }
+
+      .exp-header,
+      .edu-header {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px 10px;
+        align-items: baseline;
+      }
+
+      .exp-title,
+      .edu-title {
+        min-width: 0;
+        overflow-wrap: anywhere;
+      }
+
+      .exp-date,
+      .edu-date {
+        white-space: normal;
+      }
+
+      .lang-item {
+        justify-content: space-between;
+        gap: 12px;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="cv">
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <div class="section" style="margin-top: 0px; text-align: left;">
+        <a href="index.html">
+          <img src="./img/qr.jpg" alt="QR Code"
+            style="width: 72px; height: 72px; background: white; padding: 4px; border-radius: 6px;">
+        </a>
+      </div>
+      <div class="name">CAO Huu Tri</div>
+      <div class="title">Étudiant en 1re année de DCG<br>Recherche de stage en comptabilité</div>
+
+      <div class="contact">
+        Stage de 4 semaines<br>
+        Juin – Juillet 2027<br><br>
+        07 49 11 82 66<br>
+        <a href="mailto:tri.caohuu@gmail.com">tri.caohuu@gmail.com</a><br>
+        Saint-Égrève (38120)
+      </div>
+
+      <div class="section">
+        <div class="section-title">Compétences</div>
+        <div class="skill-item">
+          <div class="skill-name">Comptabilité </div>
+          <div class="skill-desc">Plan comptable général (PCG), la partie double et des opérations courantes</div>
+        </div>
+        
+        <div class="skill-item">
+          <div class="skill-name">Excel (intermédiaire)</div>
+          <div class="skill-desc">Tableaux croisés dynamiques (TCD), fonctions logiques et de recherche</div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name">Logiciels comptables  </div>
+          <div class="skill-desc">Sage, Cegid (notions)</div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name">Bureautique et IA </div>
+          <div class="skill-desc">Word, PowerPoint, ChatGPT et Claude</div>
+        </div>
+        
+        <div class="skill-item">
+          <div class="skill-name">Certification</div>
+          <div class="skill-desc">Pix – 500 points</div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Qualités</div>
+        <ul>
+          <li>Rigueur</li>
+          <li>Fiabilité</li>
+          <li>Confidentialité</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Langues</div>
+        <div class="lang-item">
+          <span>Français</span>
+          <span class="lang-level">Bilingue</span>
+        </div>
+        <div class="lang-item">
+          <span>Vietnamien</span>
+          <span class="lang-level">Bilingue</span>
+        </div>
+        <div class="lang-item">
+          <span>Anglais</span>
+          <span class="lang-level">Niveau avancé</span>
+        </div>
+        <div class="lang-item">
+          <span>Espagnol</span>
+          <span class="lang-level">Niveau intermédiaire</span>
+        </div>
+      </div>
+
+
+    </aside>
+
+    <!-- MAIN -->
+    <main class="main">
+      <div class="section">
+        <h2>Profil</h2>
+        <p class="profil">
+          Étudiant en 1re année de DCG (Diplôme de Comptabilité et de Gestion) au lycée Les Eaux Claires de Grenoble, je
+          développe actuellement mes compétences en comptabilité, gestion, droit et économie. Je souhaite approfondir
+          mes connaissances dans ces domaines afin de construire mon projet professionnel dans la gestion et l’expertise
+          comptable.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>Formation</h2>
+        <div class="edu-item">
+          <div class="edu-header">
+            <span class="edu-title">DCG – Diplôme de Comptabilité et de Gestion</span>
+            <span class="edu-date">2026 – 2029</span>
+          </div>
+          <div class="edu-place">Lycée Les Eaux Claires, Grenoble</div>
+          <ul>
+            <li>1re année : Comptabilité, Fondamentaux du droit, Économie, Systèmes d’information, Anglais des affaires,
+              Communication professionnelle</li>
+          </ul>
+        </div>
+        <div class="edu-item">
+          <div class="edu-header">
+            <span class="edu-title">Baccalauréat général, mention assez bien</span>
+            <span class="edu-date">2026</span>
+          </div>
+          <div class="edu-place">Lycée Champollion, Grenoble</div>
+          <ul>
+            <li>Spécialités : Mathématiques, Sciences économiques et sociales (SES)</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Expériences</h2>
+
+        <div class="exp-item">
+          <div class="exp-header">
+            <span class="exp-title">Engagement associatif – Scouts et Guides de France</span>
+            <span class="exp-date">2018 – 2026</span>
+          </div>
+          <ul>
+            <li>Parcours de Louveteaux à Compagnons : développement de l’autonomie, du sens des responsabilités et de
+              l’esprit d’équipe </li>
+            <li> Formations : BAFA (animation et encadrement de jeunes) | PSC1 (premiers secours)</li>
+          </ul>
+        </div>
+
+        <div class="exp-item">
+          <div class="exp-header">
+            <span class="exp-title">Stage d’observation – ENEDIS Chambéry</span>
+            <span class="exp-date">Juin 2024 (1 semaine)</span>
+          </div>
+          <ul>
+            <li>Observation du métier de chargé de projets à l’agence Ingénierie Réseau Structures (IRS) : suivi de chantiers, planification et gestion budgétaire </li>
+            </li>
+          </ul>
+        </div>
+
+        <div class="exp-item">
+          <div class="exp-header">
+            <span class="exp-title">Stage d’observation – CEA Grenoble</span>
+            <span class="exp-date">Novembre 2022 (1 semaine)</span>
+          </div>
+          <ul>
+            <li>Découverte de l’organisation et des missions de l’équipe du CEA-Liten</li>
+            <li>Synthèse des métiers observés : rapport de stage écrit et présentation orale</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Centres d’intérêt</h2>
+        <ul class="interests">
+          <li><span class="highlight">Rubik’s Cube</span> : résolution en 16 secondes (logique et rapidité)</li>
+          <li><span class="highlight">Sports</span> : judo (5 ans en club – discipline et respect), volleyball (esprit
+            d’équipe), musculation (régularité)</li>
+          <li><span class="highlight">Arts et culture</span> : photographie et dessin (créativité et sens du détail),
+            lecture de romans et mangas (collectionneur)</li>
+        </ul>
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>
