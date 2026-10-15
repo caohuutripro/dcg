@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV – Cao Huu Tri – Stagiaire BAFA</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            font-size: 15px;
+            line-height: 1.5;
+            color: #1a202c;
+            background: #edf2f7;
+            padding: 20px;
+        }
+
+        .page {
+            max-width: 780px;
+            margin: 0 auto;
+            background: #fff;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            border-radius: 6px;
+            overflow: hidden;
+        }
+
+        .header {
+            background: #001286;
+            color: #fff;
+            padding: 20px 28px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .header-left {
+            flex: 1;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            font-weight: 700;
+            letter-spacing: 0.3px;
+        }
+
+        .header .subtitle {
+            font-size: 14px;
+            color: #b8c4f0;
+            margin-top: 5px;
+            font-weight: 500;
+        }
+
+        .header .contact {
+            font-size: 13.5px;
+            line-height: 1.55;
+            color: #e8ecf8;
+            margin-top: 8px;
+        }
+
+        .photo {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #fff;
+            flex-shrink: 0;
+        }
+
+        .accent {
+            height: 3.5px;
+            background: #c53030;
+        }
+
+        .body {
+            padding: 22px 28px 16px;
+        }
+
+        .section {
+            margin-bottom: 18px;
+        }
+
+        .section-title {
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #001286;
+            border-bottom: 2px solid #001286;
+            padding-bottom: 4px;
+            margin-bottom: 10px;
+        }
+
+        .profil {
+            text-align: justify;
+            color: #2d3748;
+            font-size: 15px;
+            line-height: 1.55;
+        }
+
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 12px;
+        }
+
+        .item-title {
+            font-weight: 600;
+            font-size: 15px;
+        }
+
+        .item-date {
+            font-size: 13.5px;
+            color: #5a6577;
+            white-space: nowrap;
+        }
+
+        .item-place {
+            font-size: 14px;
+            color: #4a5568;
+            font-style: italic;
+            margin: 3px 0 6px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            position: relative;
+            padding-left: 14px;
+            margin-bottom: 5px;
+            color: #2d3748;
+            font-size: 15px;
+            line-height: 1.45;
+        }
+
+        ul li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #001286;
+            font-weight: 700;
+        }
+
+        .two-col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+        }
+
+        .two-col h4 {
+            font-size: 14.5px;
+            font-weight: 600;
+            margin-bottom: 6px;
+            color: #1a202c;
+        }
+
+        .two-col ul li {
+            font-size: 14.5px;
+        }
+
+        .footer {
+            border-top: 1px solid #d0d5e0;
+            margin-top: 8px;
+            padding-top: 10px;
+            text-align: center;
+            font-size: 12.5px;
+            color: #5a6577;
+        }
+
+        @media print {
+            body {
+                background: #fff;
+                padding: 0;
+            }
+
+            .page {
+                box-shadow: none;
+                border-radius: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <div class="header">
+            <div class="header-left">
+                <h1>CAO Huu Tri</h1>
+                <div class="subtitle">Stagiaire BAFA • Stage pratique recherché •
+                    Vacances scolaires</div>
+                <div class="contact">
+
+                    Saint-Égrève (38120)
+                    <br> 07 49 11 82 66 •
+                    tri.caohuu@gmail.com
+                </div>
+            </div>
+            <img class="photo" src="./img/idbafa.jpg" alt="Photo de Cao Huu Tri">
+        </div>
+        <div class="accent"></div>
+
+        <div class="body">
+            <div class="section">
+                <div class="section-title">Profil</div>
+                <p class="profil">
+                   Étudiant motivé, je recherche un stage pratique BAFA pour mettre à profit mes 8 années de scoutisme, mon esprit d’équipe et mon sens des responsabilités. Dynamique et enthousiaste, je souhaite contribuer à l’animation d’activités ludiques et au bien-être des enfants au Centre de loisirs – Espace Claretière.
+                </p>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Expérience d’animation</div>
+                <div class="item-header">
+                    <span class="item-title">Scouts et Guides de France</span>
+                    <span class="item-date">2018 – 2026</span>
+                </div>
+                <div class="item-place">Parcours Louveteaux → Compagnons – Participation active</div>
+                <ul>
+                    <li>Participation active à la vie scoute pendant 8 ans</li>
+                    <li>Développement de l’autonomie, du sens des responsabilités et de l’esprit d’équipe</li>
+                    <li>Expérience des sorties, des camps et de la vie collective, dans le respect des règles de sécurité</li>
+                    
+                </ul>
+
+                <div class="item-header" style="margin-top:12px">
+                    <span class="item-title">Formations animation &amp; sécurité</span>
+                    <span class="item-date">Obtenues</span>
+                </div>
+                <ul>
+                    <li><strong>BAFA</strong> – Formation générale validée (stage pratique recherché)</li>
+                    <li><strong>PSC1</strong> – Premiers Secours Civiques niveau 1</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Formation</div>
+                <div class="item-header">
+                    <span class="item-title">DCG – Diplôme de Comptabilité et de Gestion</span>
+                    <span class="item-date">2026 – 2029</span>
+                </div>
+                <div class="item-place">Lycée Les Eaux Claires, Grenoble – 1re année en cours</div>
+
+                <div class="item-header" style="margin-top:10px">
+                    <span class="item-title">Baccalauréat général, mention Assez Bien</span>
+                    <span class="item-date">2026</span>
+                </div>
+                <div class="item-place">Lycée Champollion, Grenoble</div>
+                <ul>
+                    <li>Spécialités : Mathématiques + Sciences économiques et sociales (SES)</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Compétences &amp; centres d’intérêt</div>
+                <div class="two-col">
+                    <div>
+                        <h4>Compétences clés</h4>
+                        <ul>
+                            <li>Esprit d’équipe et bon relationnel</li>
+                            <li>Sens des responsabilités et respect des règles de sécurité</li>
+                            <li>Autonomie, adaptabilité et dynamisme</li>
+                            
+
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Centres d’intérêt</h4>
+                        <ul>
+                            <li> Rubik’s Cube: résolution en 16 secondes</li>
+
+                            <li>Sports: judo (5 ans en club), volley-ball et musculation</li>
+                
+                            <li>Arts et culture : photographie, dessin, lecture et voyages</li>
+                            
+                    
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer">
+                Candidature stage pratique BAFA • Centre de loisirs – Espace Claretière (IFAC)
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
